@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-coupons.css
+* File Version            : 1.0
+* Created / Last Modified : 30 May 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end coupons stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin coupons.
+ */
+.DOPBSP-admin .input-wrapper .button.generate-code{
+    background-image: url('../images/sprite.png') !important;
+    background-position: -245px -45px;
+    height: 30px;
+    margin: 0 0 0 5px;
+    width: 30px;
+}
+.DOPBSP-admin .input-wrapper .button.generate-code .info{
+    margin: 32px 0 0 0;
+}
+/*
+ * ***************************************************************************** End coupons.
+ */

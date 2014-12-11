@@ -1,0 +1,288 @@
+
+.DOPBSPSearch{
+    float:left;
+    width:1024px;
+}
+
+.DOPBSPSearch-sidebar{
+    border:1px solid #e6e6e6;
+    float:left;
+    padding: 10px;
+    width:240px;
+}
+
+.DOPBSPSearch-title{
+    border-bottom:1px solid #e6e6e6;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 300 !important;
+    margin-top: 10px;
+    padding-bottom: 24px;
+    margin-bottom: 34px;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-date{
+    background: url('../images/calendar.png');
+    background-position: 5px;
+    background-repeat:no-repeat;
+    border:1px solid #e6e6e6;
+    float:left;
+    margin-top:4px;
+    padding: 5px;
+    padding-left: 35px;
+    width: 220px;
+}
+
+.DOPBSP-date::-webkit-input-placeholder { color:#666666; }
+.DOPBSP-date::-moz-placeholder { color:#666666; } /* firefox 19+ */
+.DOPBSP-date::-ms-input-placeholder { color:#666666; } /* ie */
+
+.DOPBSPSearch-sidebar .DOPBSP-hours{
+    float:left;
+    width:100%;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-hours .DOPBSP-hour{
+    float:left;
+    width:50%;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-hours .DOPBSP-hour .DOPBSP-hour-title{
+    color:#666666;
+    float:left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px;
+    font-weight: 100 !important;
+    margin-top: 34px;
+    width:100%;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-hours .DOPBSP-hour .DOPBSP-hour-select{
+    border:1px solid #e6e6e6;
+    color:#666666;
+    float:left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px;
+    font-weight: 100 !important;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:100px;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices{
+    float:left;
+    margin-top: 34px;
+    width:100%;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices .DOPBSP-price{
+/*    width: 220px;
+    margin-left: 10px;*/
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices .DOPBSP-price{
+    border-radius:20px !important;
+    height: 13px !important;
+    border:1px solid #e6e6e6 !important;
+    width: 205px;
+    margin: 0px;
+    padding: 0px;
+    position:relative;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices .DOPBSP-price .ui-slider-range{
+    background: #ebebeb !important;
+    height: 13px;
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    /*border-radius:20px !important;*/
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices .DOPBSP-price .ui-slider-handle{
+    width:8px !important;
+    height: 8px !important;
+    background:#ffffff !important;
+    border:6px solid #898989 !important;
+    border-radius:10px !important;
+    position:absolute !important;
+    top:-3px;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices .DOPBSP-price .ui-slider-handle:hover{
+    border:6px solid #ff6300 !important;
+    color:#fff !important;
+    text-decoration: none !important;
+}
+
+.DOPBSPSearch-sidebar .DOPBSP-prices .DOPBSP-price .ui-slider-handle .DOPBSPSearch-price-info{
+    color:#666666 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 100 !important;
+    position:absolute !important;
+    top:-25px !important;
+    left:-10px !important;
+}
+
+
+.DOPBSPSearch-container{
+    border:1px solid #e6e6e6;
+    float:left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width:710px;
+}
+
+.DOPBSPSearch-container .DOPBSP-sort-select{
+    border:1px solid #e6e6e6;
+    color:#666666;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px;
+    font-weight: 100 !important;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:110px;
+    margin-left: 20px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results{
+    float:left;
+    list-style: none;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    width:100%;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li{
+    border-bottom:1px solid #e6e6e6;
+    float:left;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    padding-bottom: 30px;
+    width:100%;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-image{
+    float:left;
+    height: 220px;
+    margin-right: 20px;
+    width:220px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-title{
+    color:#464646;
+    float:left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 24px;
+    font-weight: bold !important;
+    width:340px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-rating{
+    float:left;
+    width:130px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-rating .DOPBSPSearch-star-orange{
+    background: url('../images/orange_star.png');
+    float:left;
+    height:22px;
+    width:23px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-rating .DOPBSPSearch-star-gray{
+    background: url('../images/gray_star.png');
+    float:left;
+    height:22px;
+    width:23px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-start{
+    color:#464646;
+    float:left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 18px;
+    font-weight: 100 !important;
+    margin-top: 12px;
+    width:440px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-start .start-price{
+    color:#ff6300;
+    font-weight: bold !important;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-description{
+    color:#666666;
+    float:left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px;
+    font-weight: 100 !important;
+    margin-top: 25px;
+    width:440px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-view{
+    background-color: #464646;
+    color:#fff;
+    float:right;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 15px;
+    font-weight: 100 !important;
+    height: 34px;
+    margin-top: 25px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    width:150px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Results li .DOPBSPSearch-Result-view:hover{
+    background-color: #ff6300;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Pages{
+    float:right;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: right;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Pages li{
+    border:1px solid #e6e6e6;
+    cursor:pointer;
+    float:left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px;
+    font-weight: 100 !important;
+    height: 23px;
+    padding-top: 5px;
+    text-align: center;
+    width:28px;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Pages li:hover{
+    border:1px solid #464646;
+    color:#666666;
+}
+
+.DOPBSPSearch-container .DOPBSPSearch-Pages li.selected{
+    border:1px solid #464646;
+    color:#666666;
+}
+
+.ui-datepicker{
+    z-index:99 !important;
+}

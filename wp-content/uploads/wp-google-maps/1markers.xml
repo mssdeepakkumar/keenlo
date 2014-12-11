@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>1</marker_id>
+    <map_id>1</map_id>
+    <title>yoga 3</title>
+    <address>29-31 alfreda st coogee sydney nsw 2034</address>
+    <desc>sdf adsg sdg shs gsd sgsdgf </desc>
+    <pic>http://keenlo.com/wp-content/uploads/2014/06/fb-cover3.jpg</pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>-33.920258</lat>
+    <lng>151.25605900000005</lng>
+    <anim></anim>
+    <category>1</category>
+    <infoopen></infoopen>
+  </marker>
+  <marker>
+    <marker_id>3</marker_id>
+    <map_id>1</map_id>
+    <title>yoga 2 test</title>
+    <address>29-31 alfreda st coogee nsw 2034</address>
+    <desc>test et yoga 2 asfagsfaskasfa</desc>
+    <pic>http://keenlo.com/wp-content/uploads/2014/06/fb-cover31.jpg</pic>
+    <icon>http://keenlo.com/wp-content/uploads/2014/07/bootcamp-keenlo5.png</icon>
+    <linkd>#</linkd>
+    <lat>-33.920258</lat>
+    <lng>151.25605900000005</lng>
+    <anim>0</anim>
+    <category>5</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>4</marker_id>
+    <map_id>1</map_id>
+    <title>crossfit 1</title>
+    <address>69/67 lords rd leichhardt nsw 2040</address>
+    <desc>tgrh sdh sdghsg adh adh adf d haddfh adh</desc>
+    <pic>http://keenlo.com/wp-content/uploads/2014/06/photo2.jpg</pic>
+    <icon>http://keenlo.com/wp-content/uploads/2014/07/crossfit-keenlo.png</icon>
+    <linkd></linkd>
+    <lat>-33.8853818</lat>
+    <lng>151.1461557</lng>
+    <anim>0</anim>
+    <category>4</category>
+    <infoopen>0</infoopen>
+  </marker>
+  <marker>
+    <marker_id>5</marker_id>
+    <map_id>1</map_id>
+    <title>Yoga test Mark 2</title>
+    <address>72/74 shepherd st sydney nsw 2204</address>
+    <desc>fghs sfgh sfgh sfghsfgh fsgh sfghsfghs</desc>
+    <pic>http://keenlo.com/wp-content/uploads/2014/06/fb-cover3.jpg</pic>
+    <icon>http://keenlo.com/wp-content/uploads/2014/07/yoga-keenlo1.png</icon>
+    <linkd>http://keenlo.com/product/test4-vendors/</linkd>
+    <lat>-33.90593</lat>
+    <lng>151.16172900000004</lng>
+    <anim>0</anim>
+    <category>3</category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>

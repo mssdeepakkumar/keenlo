@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-forms.css
+* File Version            : 1.0
+* Created / Last Modified : 30 May 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end forms stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin forms.
+ */
+/*
+ * *************************************************** Begin form fields header.
+ */
+.DOPBSP-admin .form-fields-header{
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    border-left: none;
+    height: 38px;
+    margin: 0 -10px 20px -10px;
+}
+
+.DOPBSP-admin .form-fields-header h3{
+    border: none !important;
+    color: #464646;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+/*
+ * Field types.
+ */
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper{
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .button{
+    background-image: url('../images/sprite.png');
+    background-position: -41px -1px;
+    display: block;
+    height: 38px;
+    margin: 0 10px 0 0;
+    width: 38px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types{
+    background: #ffffff;
+    display: none;
+    list-style: none;
+    margin: 38px 0 0 0 !important;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1000;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper:hover .form-fields-types{
+    display: block;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li{
+    border-bottom: 1px solid #ffffff;
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li:first-child{
+    border-top: 1px solid #ffffff;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a{
+    background: #464646;
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a:hover{
+    background: #ff6300;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a .icon{
+    background-image: url('../images/sprite.png');
+    border-right: 1px solid #ffffff;
+    display: block;
+    float: left;
+    height: 32px;
+    margin: 3px 10px 0 0;
+    width: 38px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a .icon.checkbox{
+    background-position: -1px -164px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a .icon.select{
+    background-position: -41px -164px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a .icon.text{
+    background-position: -81px -164px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a .icon.textarea{
+    background-position: -121px -164px;
+}
+
+.DOPBSP-admin .form-fields-header .form-fields-types-wrapper .form-fields-types li a .label{
+    color: #ffffff;
+    display: block;
+    font-weight: 300;
+    float: left;
+    height: 39px;
+    line-height: 39px;
+}
+/*
+ * ***************************************************** End form fields header.
+ */
+
+/*
+ * ********************************************************** Begin form fields.
+ */
+.DOPBSP-admin .form-fields{
+    list-style: none;
+}
+
+.DOPBSP-admin .form-fields .placeholder{
+    border: 1px dashed #ff6300;
+    height: 58px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper{
+    background-color: #ffffff;
+    padding: 20px 10px;
+    margin: 0 0 1px 0;
+    position: relative;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview{
+    float: left;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper{
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper label{
+    display: block;
+    float: none;
+    font-style: italic;
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper label .required{
+    color: #f1705c;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper .DOPSelect label{
+    font-style: normal;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper textarea{
+    width: 250px;
+    resize: none;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper input[type='checkbox']:focus,
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .preview.input-wrapper input[type='checkbox']:hover{
+    border: 1px solid #c9c9c9;
+}
+
+/*
+ * Buttons
+ */
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper{
+    bottom: 0px;
+    display: none;
+    position: absolute;
+    right: 10px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper .button{
+    background-color: #acacac;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper .button:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper .button.toggle{
+    background-image: url('../images/sprite.png');
+    background-position: 0 -120px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -80px -120px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper .button.handle{
+    background-image: url('../images/sprite.png');
+    background-position: -120px -120px;
+    cursor: move;
+}
+   
+.DOPBSP-admin .form-fields .field-wrapper .preview-wrapper .buttons-wrapper .button:hover{
+    background-color: #ff6300;
+}
+
+/*
+ * Settings
+ */
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper{
+    background: #fafafa;
+    display: none;
+    padding: 19px 10px 20px 10px;
+}
+
+/* 
+ * Select options
+ */
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper{
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .button{
+    height: 30px;
+    width: 30px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .button .info{
+    margin: 32px 0 0 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .buttons{
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .buttons .button.add{
+    background-image: url('../images/sprite.png');
+    background-position: -165px -125px;
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options{
+    margin: 0 0 0 150px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options li{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options li:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options li .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options .placeholder{
+    height: 28px;
+    width: 240px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options li:last-child .input-wrapper{
+    margin: 0;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options .input-wrapper .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -85px -125px;
+    margin: 0 0 0 5px;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper .settings-wrapper .select-options-wrapper .select-options .input-wrapper .button.handle{
+    background-image: url('../images/sprite.png');
+    background-position: -125px -125px;
+    cursor: move;
+    margin: 0 0 0 5px;
+}
+/*
+ * Displayed form field.
+ */
+.DOPBSP-admin .form-fields .field-wrapper.displayed .preview-wrapper,
+.DOPBSP-admin .form-fields .field-wrapper:hover .preview-wrapper{
+    background-color: #fafafa;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper.displayed .preview-wrapper .buttons-wrapper,
+.DOPBSP-admin .form-fields .field-wrapper:hover .preview-wrapper .buttons-wrapper,
+.DOPBSP-admin .form-fields .field-wrapper.displayed .settings-wrapper{
+    display: block;
+}
+
+.DOPBSP-admin .form-fields .field-wrapper.displayed .preview-wrapper .buttons-wrapper .button.toggle{
+    background-position: -40px -120px;
+}
+/*
+ * ************************************************************ End form fields.
+ */
+/*
+ * ***************************************************************************** End forms.
+ */

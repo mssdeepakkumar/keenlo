@@ -1,0 +1,1399 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend.css
+* File Version            : 1.0
+* Created / Last Modified : 15 July 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO backend stylesheet.
+*/
+
+.DOPBSP-admin{
+    margin: 20px 20px 20px 0;
+    min-width: 1060px;
+}
+
+#dopsbsp-custom-post-meta .DOPBSP-admin{
+    margin-right: 0px;
+    min-width: 100%;
+}
+
+.DOPBSP-left{
+    float: left !important;
+}
+
+.DOPBSP-right{
+    float: right !important;
+}
+
+.DOPBSP-clear{
+    clear: both;
+}
+
+/*
+ * Begin colors.
+ */
+.DOPBSP-pending-background{
+    background: #000000 !important;
+}
+
+.DOPBSP-approved-background{
+    background: #9cbc72 !important;
+}
+
+.DOPBSP-rejected-background{
+    background: #f1705c !important;
+}
+
+.DOPBSP-canceled-background{
+    background: #fdaa29 !important;
+}
+
+.DOPBSP-expired-background{
+    background: #cccccc !important;
+}
+
+.DOPBSP-pending-color{
+    color: #000000 !important;
+}
+
+.DOPBSP-approved-color{
+    color: #9cbc72 !important;
+}
+
+.DOPBSP-rejected-color{
+    color: #f1705c !important;
+}
+
+.DOPBSP-canceled-color{
+    color: #fdaa29 !important;
+}
+
+.DOPBSP-expired-color{
+    color: #cccccc !important;
+}
+/*
+ * End colors
+*/
+
+/*
+ * ***************************************************************************** Begin header.
+ */
+.DOPBSP-admin h2{
+    height: 0px !important;
+    line-height: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 0px !important;
+}
+
+.DOPBSP-admin .header{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    margin: 0 0 10px 0;
+    padding: 9px;
+}
+
+.DOPBSP-admin .header h3{
+    border: none !important;
+    float: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 25px !important;
+    font-weight: normal !important;
+    line-height: 40px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.DOPBSP-admin .header h3 em{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.DOPBSP-admin .header h3 em.beta{
+    color: #ff6300;
+}
+
+.DOPBSP-admin .header h3 em.soon{
+    color: #666666;
+}
+
+.DOPBSP-admin .header a{
+    color: #ff6300;
+    font-weight: 300;
+    float: right;
+    line-height: 20px;
+    margin: 10px 20px 0 0;
+    text-decoration: none;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+.DOPBSP-admin .header a:hover{
+    color: #fdaa29;
+}
+
+#DOPSelect-DOPBSP-admin-translation{
+    float: right;
+    margin: 5px 0 0 20px;
+}
+
+/*
+ * ********************************************************* Begin messages box.
+ */
+#DOPBSP-messages-background{
+    background: #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000000;
+}
+
+#DOPBSP-messages-box{
+    background: #252525;
+    border: none;
+    left: 50%;
+    margin: 0 0 0 -125px;
+    min-height: 40px;
+    padding: 20px 10px;
+    position: fixed;
+    top: -80px;
+    width: 230px;
+    z-index: 10000001;
+    -webkit-transition: margin-top 300ms ease-out, top 300ms ease-out;
+    -moz-transition: margin-top 300ms ease-out, top 300ms ease-out;
+    -o-transition: margin-top 300ms ease-out, top 300ms ease-out;
+    transition: margin-top 300ms ease-out, top 300ms ease-out;
+}
+
+#DOPBSP-messages-box .icon-active,
+#DOPBSP-messages-box .icon-success,
+#DOPBSP-messages-box .icon-error{
+    display: none;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+#DOPBSP-messages-box .icon-active{
+    background: url('../images/sprite.png') 0 -40px;
+    -webkit-animation-duration: 1s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: dopbsp-loader; 
+    -webkit-animation-timing-function: linear;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-animation-duration: 1s; 
+    -moz-animation-name: dopbsp-loader; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    animation-duration: 1s; 
+    animation-name: dopbsp-loader; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition-property: -moz-transform;
+    transition-duration: 1s;
+}
+
+@-webkit-keyframes dopbsp-loader{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes dopbsp-loader{
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes dopbsp-loader{
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+#DOPBSP-messages-box .icon-success{
+    background: url('../images/sprite.png') -40px -40px;
+}
+
+#DOPBSP-messages-box .icon-error{
+    background: url('../images/sprite.png') -80px -40px;
+}
+
+#DOPBSP-messages-box .message{
+    color: #e1e1e1;
+    display: table-cell;
+    font-size: 12px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 15px;
+    min-height: 40px;
+    vertical-align: middle;
+    width: 175px;
+}
+
+#DOPBSP-messages-box .close{
+    background-color: #252525;
+    background-image: url('../images/sprite.png');
+    background-position: -120px -40px;
+    border: 1px solid #ffffff;
+    border-right: none;
+    border-top: none;
+    display: none;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+    width: 25px;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+#DOPBSP-messages-box .close:hover{
+    background-color: #ff6300;
+}
+
+#DOPBSP-messages-background.active{
+    display: block;
+}
+
+#DOPBSP-messages-box.active{
+    margin: -40px 0 0 -125px;
+    top: 50%;
+}
+
+#DOPBSP-messages-box.active-info .icon-active,
+#DOPBSP-messages-box.active .icon-active{
+    display: block;
+}
+
+#DOPBSP-messages-box.success .icon-success{
+    display: block;
+}
+
+#DOPBSP-messages-box.error .icon-error{
+    display: block;
+}
+
+#DOPBSP-messages-box.active-info,
+#DOPBSP-messages-box.error,
+#DOPBSP-messages-box.success{
+    top: 33px;
+}
+
+#DOPBSP-messages-box.error .close,
+#DOPBSP-messages-box.success .close{
+    display: block;
+}
+/*
+ * *********************************************************** End messages box.
+ */
+
+/*
+ * ***************************************************** Begin confirmation box.
+ */
+#DOPBSP-confirmation-box{
+    background: #252525;
+    border: none;
+    left: 50%;
+    margin: 0 0 0 -125px;
+    min-height: 40px;
+    padding: 20px 10px;
+    position: fixed;
+    top: -120px;
+    width: 230px;
+    z-index: 10000001;
+    -webkit-transition: margin-top 300ms ease-out, top 300ms ease-out;
+    -moz-transition: margin-top 300ms ease-out, top 300ms ease-out;
+    -o-transition: margin-top 300ms ease-out, top 300ms ease-out;
+    transition: margin-top 300ms ease-out, top 300ms ease-out;
+}
+
+#DOPBSP-confirmation-box .icon{
+    background: url('../images/sprite.png') -200px -40px;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+#DOPBSP-confirmation-box .message{
+    color: #e1e1e1;
+    display: table-cell;
+    font-size: 12px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 15px;
+    min-height: 40px;
+    vertical-align: middle;
+    width: 190px;
+}
+
+
+#DOPBSP-confirmation-box .buttons{
+    background: #ffffff;
+    margin: 20px -10px -20px -10px;
+    overflow: hidden;
+}
+
+#DOPBSP-confirmation-box .buttons a{
+    background: #252525;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 39px;
+    line-height: 39px;
+    margin: 1px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 124.5px;
+    -webkit-transition: background-color 600ms linear;
+    -moz-transition: background-color 600ms linear;
+    -o-transition: background-color 600ms linear;
+    transition: background-color 600ms linear;
+}
+
+#DOPBSP-confirmation-box .buttons a.button-yes{
+    float: left;
+}
+
+#DOPBSP-confirmation-box .buttons a.button-no{
+    float: right;
+}
+
+#DOPBSP-confirmation-box .buttons a:hover{
+    background: #ff6300;
+}
+
+#DOPBSP-confirmation-box.active{
+    margin: -60px 0 0 -125px;
+    top: 50%;
+}
+/*
+ * ******************************************************* End confirmation box.
+ */
+
+/*
+ * Begin go top.
+ */
+#DOPBSP-go-top{
+    background-color: #252525;
+    background-image: url('../images/sprite.png');
+    background-position: -160px -40px;
+    bottom: 40px;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    text-decoration: none;
+    width: 40px;
+    z-index: 10000001;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+#DOPBSP-go-top:hover{
+    background-color: #ff6300;
+}
+/*
+ * End go top.
+ */
+/*
+ * ***************************************************************************** End header.
+ */
+
+/*
+ * ***************************************************************************** Begin content.
+ */
+.DOPBSP-admin .main{
+    display: none;
+}
+
+.DOPBSP-admin .main table.content-wrapper{
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.DOPBSP-admin .main table.content-wrapper col.column1{
+    width: 250px;
+}
+
+.DOPBSP-admin .main table.content-wrapper col.separator{
+    width: 10px;
+}
+
+.DOPBSP-admin .main table.content-wrapper col.column2.calendar{
+    width: 620px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header{
+    border-bottom: 1px solid #e6e6e6;
+    height: 40px;
+    overflow: hidden;
+    padding: 19px 4px 19px 9px;
+}
+
+.DOPBSP-admin .main .button{
+    background-color: #c9c9c9;
+    border: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 40px;
+    -webkit-transition: background-color 600ms linear;
+    -moz-transition: background-color 600ms linear;
+    -o-transition: background-color 600ms linear;
+    transition: background-color 600ms linear;
+}
+
+.DOPBSP-admin .main .button.help{
+    background: #c9c9c9 url('../images/sprite.png') 0 0;
+}
+
+.DOPBSP-admin .main .button.DOPBSP-right{
+    margin: 0 0 0 5px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.add{
+    background-image: url('../images/sprite.png');
+    background-position: -40px 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.calendar{
+    background-image: url('../images/sprite.png');
+    background-position: -80px 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.settings{
+    background-image: url('../images/sprite.png');
+    background-position: -120px 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.notifications{
+    background-image: url('../images/sprite.png');
+    background-position: -160px 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.payments{
+    background-image: url('../images/sprite.png');
+    background-position: -200px 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.users{
+    background-image: url('../images/sprite.png');
+    background-position: -240px 0;
+}
+
+/*.DOPBSP-admin .main table.content-wrapper .column .column-header .button.notifications{
+    background-image: url('../images/sprite.png');
+    background-position: -280px 0;
+}*/
+
+.DOPBSP-admin .main table.content-wrapper .column .column-header .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -320px 0;
+}
+
+.DOPBSP-admin .main .button .info{
+    background-color: #252525;
+    color: #ffffff;
+    display: none;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    max-width: 230px;
+    margin: 42px 0 0 0;
+    padding: 10px;
+    position: absolute;
+    white-space: normal;
+    z-index: 1000000;
+}
+
+.DOPBSP-admin .main .button.help.DOPBSP-right .info{
+    margin: 42px 0 0 -210px;
+}
+
+.DOPBSP-admin .main .button .info.help{
+    padding: 20px 10px;
+}
+
+.DOPBSP-admin .main .button:hover,
+.DOPBSP-admin .main .button.selected{
+    background-color: #ff6300;
+}
+
+.DOPBSP-admin .main .button:hover .info{
+    display: block;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content{
+    line-height: 20px;
+    overflow: hidden;
+    padding: 20px 9px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content hr{
+    background: #c9c9c9;
+    border: none !important;
+    height: 1px;
+    margin: 0 -10px 19px -10px;
+}
+
+/*
+ * *********************************************************** Begin items list.
+ */
+.DOPBSP-admin .main table.content-wrapper .column .column-content ul{
+    margin: 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item{
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+    margin: 0 0 5px 0;
+    -webkit-transition: border-color 300ms linear;
+    -moz-transition: border-color 300ms linear;
+    -o-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header{
+    background: #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 17px;
+    margin: 0;
+    padding: 0 9px;
+    -webkit-transition: background-color 300ms linear, border-color 300ms linear;
+    -moz-transition: background-color 300ms linear, border-color 300ms linear;
+    -o-transition: background-color 300ms linear, border-color 300ms linear;
+    transition: background-color 300ms linear, border-color 300ms linear;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .id{
+    color: #464646;
+    display: block;
+    float: left;
+    font-size: 11px;
+    line-height: 15px;
+    height: 15px;
+    margin: 1px 10px 0 0;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .header-item{
+    display: block;
+    float: left;
+    font-size: 11px;
+    line-height: 15px;
+    height: 15px;
+    margin: 1px 2px 0 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .header-item img,
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .header-item .text{
+    color: #ffffff;
+    float: left;
+    display: block;
+    line-height: 15px;
+    height: 15px;
+    min-width: 15px;
+    text-align: center;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .header-item.avatar{
+    background-color: #ffffff;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .header-item .info{
+    background-color: #252525;
+    color: #ffffff;
+    display: none;
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 230px;
+    margin: 16px 0 0 0;
+    padding: 10px;
+    position: absolute;
+    white-space: normal;
+    z-index: 1000000;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .header .header-item:hover .info{
+    display: block;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item .name{
+    color: #acacac;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0 9px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item:hover,
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item.selected{
+    border: 1px solid #464646;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item:hover .header,
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item.selected .header{
+    background: #464646;
+    border-bottom: 1px solid #464646;
+}
+
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item:hover .header .id,
+.DOPBSP-admin .main table.content-wrapper .column .column-content .item.selected .header .id{
+    color: #ffffff;
+}
+
+.DOPBSP-admin .no-data{
+    color: #acacac;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+/*
+ * ************************************************************* End items list.
+ */
+
+.DOPBSP-admin .button{
+    margin: 12px 0 0 10px;
+}
+
+#DOPBSP-calendar{
+    width: 600px;    
+}
+/*
+ * ***************************************************************************** End content.
+ */
+
+/*
+ * ***************************************************************************** Begin form inputs.
+ */
+/*
+ * Begin inputs headers.
+ */
+.DOPBSP-admin .inputs-header{
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    border-left: none;
+    height: 38px;
+    margin: 0 -10px 20px -10px;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .inputs-header h3{
+    border: none !important;
+    color: #464646;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.DOPBSP-admin .inputs-header .button{
+    float: right;
+    height: 38px;
+    margin: 0 10px 0 0;
+    width: 38px;
+}
+
+.DOPBSP-admin .inputs-header.display .button{
+    background-image: url('../images/sprite.png');
+    background-position: -1px -121px;
+}
+
+.DOPBSP-admin .inputs-header.hide .button{
+    background-image: url('../images/sprite.png');
+    background-position: -41px -121px;
+}
+
+.DOPBSP-admin .inputs-header.display.last{
+    margin: 0 -10px;
+}
+
+.DOPBSP-admin .inputs-header.hide.last{
+    margin: 0 -10px 20px -10px;
+}
+/*
+ * End inputs headers.
+ */
+
+/*
+ * Begin inputs wrappers.
+ */
+.DOPBSP-admin .inputs-wrapper{
+    margin: 0 0 40px 0;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .inputs-wrapper.last{
+    margin: 0;
+}
+
+.DOPBSP-admin .input-wrapper{
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .input-wrapper.DOPBSP-left{
+    margin: 0 30px 10px 0;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .checkboxes-wrapper{
+    float: left;
+    overflow: hidden;
+    width: 170px;
+}
+
+.DOPBSP-admin .input-wrapper.last{
+    margin-bottom: 0;
+}
+/*
+ * End inputs wrappers.
+ */
+
+/*
+ * Begin label.
+ */
+.DOPBSP-admin .input-wrapper label{
+    color: #acacac;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 5px 0 0 0;
+    width: 150px;
+}
+
+.DOPBSP-admin .input-wrapper label.for-checkboxes,
+.DOPBSP-admin .input-wrapper label.for-radios{
+    margin: 0;
+}
+
+.DOPBSP-admin .input-wrapper label.for-checkbox,
+.DOPBSP-admin .input-wrapper label.for-radio{
+    margin: 0;
+    width: auto;
+}
+
+.DOPBSP-admin .input-wrapper label.for-checkbox-with-width{
+    margin: 0;
+}
+
+.DOPBSP-admin .input-wrapper label.for-switch{
+    cursor: default;
+    margin: 0;
+}
+/*
+ * End label.
+ */
+
+/* 
+ * Begin text.
+ */
+.DOPBSP-admin .input-wrapper input[type=text]{
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #acacac;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    padding: 4px 9px;
+    width: 170px;
+}
+
+.DOPBSP-admin .input-wrapper input[type=text].small{
+    width: 80px;
+}
+
+.DOPBSP-admin .input-wrapper input[type=text]:focus{
+    border: 1px solid #c9c9c9;
+}
+
+.DOPBSP-admin .input-wrapper input[type=text]:disabled{
+    opacity: 0.5;
+}
+
+/*
+ * Date
+ */
+.DOPBSP-admin .input-wrapper input[type=text].date{
+    background-image: url('../images/sprite.png');
+    background-position: -5px -207px;
+    margin: 0 0 5px 0;
+    padding: 4px 9px 4px 34px;
+}
+
+/*
+ * Time lapse
+ */
+.DOPBSP-admin .input-wrapper input[type=text].time-lapse{
+    background-image: url('../images/sprite.png');
+    background-position: -5px -246px;
+    padding: 4px 9px 4px 34px;
+    width: 80px;
+}
+/*
+ * End time lapse.
+ */
+/*
+ * End text.
+ */
+
+/*
+ * Begin textarea.
+ */
+.DOPBSP-admin .input-wrapper textarea{
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #acacac;
+    display: block;
+    float: left;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 4px 9px;
+    resize: vertical;
+    width: 170px;
+}
+
+.DOPBSP-admin .input-wrapper textarea:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.DOPBSP-admin .input-wrapper textarea:disabled{
+    opacity: 0.5;
+}
+/*
+ * End textarea.
+ */
+
+/*
+ * Begin checkbox & radio.
+ */
+.DOPBSP-admin .input-wrapper input[type=checkbox],
+.DOPBSP-admin .input-wrapper input[type=radio]{
+    -webkit-appearance: none;
+    background: #ffffff;
+    border: 1px solid #c9c9c9 !important;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    float: left;
+    height: auto;
+    margin: 1px 5px 1px 0;
+    padding: 8px !important;
+    position: relative;
+    width: auto;
+}
+
+.DOPBSP-admin .input-wrapper input[type=checkbox]{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.DOPBSP-admin .input-wrapper input[type=checkbox]:hover,
+.DOPBSP-admin .input-wrapper input[type=radio]:hover{
+    border: 1px solid #ff6300 !important;
+    color: #ff6300 !important;
+}
+
+.DOPBSP-admin .input-wrapper input[type=checkbox]:checked:before,
+.DOPBSP-admin .input-wrapper input[type=checkbox]:checked:after,
+.DOPBSP-admin .input-wrapper input[type=radio]:checked:before,
+.DOPBSP-admin .input-wrapper input[type=radio]:checked:after{
+    background: #ff6300 !important;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    border: 1px solid #ff6300 !important;
+    color: #ff6300 !important;
+    content: ' ' !important;
+    font-size: 16px !important;
+    left: -1px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: -1px !important;
+    width: 16px !important;
+}
+
+.DOPBSP-admin .input-wrapper input[type=checkbox]:checked:before,
+.DOPBSP-admin .input-wrapper input[type=checkbox]:checked:after{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.DOPBSP-admin .input-wrapper input[type=checkbox]:disabled,
+.DOPBSP-admin .input-wrapper input[type=checkbox]:disabled:hover,
+.DOPBSP-admin .input-wrapper input[type=radio]:disabled,
+.DOPBSP-admin .input-wrapper input[type=radio]:disabled:hover{
+    border: 1px solid #c9c9c9 !important;
+    cursor: default !important;
+    opacity: 0.5;
+}
+/*
+ * End checkbox.
+ */
+
+/*
+ * Begin select.
+ */
+.DOPSelect.single{
+    float: left;
+}
+
+.DOPSelect.single.small{
+    width: 80px;
+}
+
+.DOPSelect.single.small .select .selection{
+    width: 40px;
+}
+
+/*
+ * Hour
+ */
+.DOPSelect.single.hour .select .selection{
+    background-image: url('../images/sprite.png');
+    background-position: -5px -246px;
+    padding: 0 0 0 30px;
+    width: 100px;
+}
+
+/*
+ * Options.
+ */
+.DOPSelect.single.small ul{
+    width: 78px;
+}
+
+.DOPSelect.single.small ul li{
+    width: 60px;
+}
+/*
+ * End select.
+ */
+
+/*
+ * Begin button/submit.
+ */
+.DOPBSP-admin input[type=button],
+.DOPBSP-admin input[type=submit]{
+    background: #464646;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 5px 0 0;
+    padding: 0 20px;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+.DOPBSP-admin input[type=button].DOPBSP-right,
+.DOPBSP-admin input[type=submit].DOPBSP-right{
+    margin: 0 0 0 5px;
+}
+
+.DOPBSP-admin input[type=button]:hover,
+.DOPBSP-admin input[type=button]:focus,
+.DOPBSP-admin input[type=submit]:hover,
+.DOPBSP-admin input[type=submit]:focus{
+    background: #ff6300;
+    outline: none;
+}
+
+.DOPBSP-admin input[type=button]:disabled,
+.DOPBSP-admin input[type=submit]:disabled{
+    opacity: 0.5;
+}
+
+.DOPBSP-admin .input-wrapper input[type=button],
+.DOPBSP-admin .input-wrapper input[type=submit]{
+    width: 170px;
+}
+/*
+ * End button.
+ */
+
+/*
+ * Begin switch.
+ */
+.DOPBSP-admin .input-wrapper .switch{
+    float: left;
+    height: 20px;
+    position: relative;
+    width: 100px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-checkbox{
+    display: none !important;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-label{
+    border: 1px solid #f1705c;
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    margin: 0 !important;
+    overflow: hidden;
+    width: 98px !important;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-inner{
+    margin-left: -100%;
+    width: 200%;
+    -webkit-transition: margin 0.3s ease-in 0s;
+    -moz-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-inner:before,
+.DOPBSP-admin .input-wrapper .switch .switch-inner:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #acacac;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    height: 18px;
+    padding: 0 10px;
+    width: 50%;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-inner:before{
+    text-align: left;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-inner:after{
+    text-align: right;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-switch{
+    background: #f1705c;
+    bottom: 0;
+    height: 20px;
+    margin: 0;
+    padding: 0 !important;
+    position: absolute;
+    right: 80px;
+    top: 0;
+    width: 20px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-checkbox:checked+.switch-label .switch-inner{
+    margin-left: 0;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-checkbox:checked+.switch-label{
+    border-color: #9cbc72;
+}
+
+.DOPBSP-admin .input-wrapper .switch .switch-checkbox:checked+.switch-label .switch-switch{
+    background: #9cbc72;
+    right: 0; 
+}
+/*
+ * End switch.
+ */
+
+/*
+ * Begin help.
+ */
+.DOPBSP-admin .input-wrapper .button.help{
+    background-position: -365px -5px;
+    height: 30px;
+    margin: 0 0 0 5px;
+    width: 30px;
+}
+
+.DOPBSP-admin .input-wrapper .button.help.switch-help{
+    background-position: -370px -10px;
+    height: 20px;
+    margin: 0 0 0 5px;
+    width: 20px;
+}
+
+.DOPBSP-admin .input-wrapper .button.help .info{
+    margin: 32px 0 0 0;
+}
+
+.DOPBSP-admin .input-wrapper .button.help.switch-help .info{
+    margin: 22px 0 0 0;
+}
+/*
+ * End help.
+ */
+
+/*
+ * Begin warning info.
+ */
+.DOPBSP-admin .input-wrapper .button.warning-info{
+    background: #f1705c url('../images/sprite.png');
+    background-position: -405px -5px;
+    display: none;
+    height: 30px;
+    margin: 0 0 0 5px;
+    width: 30px;
+}
+
+.DOPBSP-admin .input-wrapper .button.warning-info.checkbox-warning-info{
+    background-position: -410px -10px;
+    height: 20px;
+    margin: 0 0 0 5px;
+    width: 20px;
+}
+
+.DOPBSP-admin .input-wrapper .button.warning-info .info{
+    background-color: #f1705c;
+    margin: 32px 0 0 -175px;
+    max-width: 185px;
+    width: 185px;
+}
+
+.DOPBSP-admin .input-wrapper .button.warning-info.checkbox-warning-info .info{
+    margin: 32px 0 0 -175px;
+}
+/*
+ * End warning info.
+ */
+/*
+ * ***************************************************************************** End form inputs.
+ */
+
+/*
+ * ***************************************************************************** Begin jQuery UI datepicker.
+ */
+.DOPBSP-admin-datepicker.ui-datepicker{
+    background: #ffffff !important;
+    border: 1px solid #464646 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    width: 218px !important;
+}
+
+/*
+ * jQuery UI datepicker header.
+ */
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header{
+    background: #464646 !important;
+    border: none;
+    border-bottom: 1px solid #464646 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-next,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-prev{
+    background-color: #464646 !important;
+    background-image: url('../images/sprite.png') !important;
+    border: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    cursor: pointer !important;
+    height: 38px !important;
+    left: auto !important;
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+    width: 38px !important;
+    -webkit-transition: background-color 300ms linear !important;
+    -moz-transition: background-color 300ms linear !important;
+    -o-transition: background-color 300ms linear !important;
+    transition: background-color 300ms linear !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-next:hover,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-prev:hover{
+    background-color: #acacac !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-next.ui-state-disabled,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-prev.ui-state-disabled{
+    display: none !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-next{
+    background-position: -241px -81px !important;
+    float: right !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-prev{
+    background-position: -201px -81px !important;
+    float: left !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-next .ui-icon,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-prev .ui-icon{
+    display: none !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-title,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-month,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-year{
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 38px !important;
+    text-align: center !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-title{
+    margin: 0 38px !important;
+}
+
+/*
+ * jQuery UI datepicker calendar.
+ */
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar{
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    margin: 0 !important;
+    table-layout: fixed !important;
+    width: 100% !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar th{
+    background: #acacac !important;
+    border: 1px solid #c9c9c9 !important;
+    border-top: none !important;
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    line-height: 18px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar td{
+    border: 1px solid #c9c9c9 !important;
+    padding: 0 !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-other-month{
+    background: #eeeeee !important;
+    line-height: 17px !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar .ui-state-disabled span,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar a{
+    background: #ffffff !important;
+    border: 0 !important;
+    color: #acacac !important;
+    display: block !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    line-height: 19px !important;
+    padding: 0 !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar a{
+    color: #464646 !important;
+}
+
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar a.ui-state-active,
+.DOPBSP-admin-datepicker.ui-datepicker .ui-datepicker-calendar a:hover{
+    border: 1px solid #464646 !important;
+    line-height: 17px !important;
+}
+/*
+ * ***************************************************************************** End jQuery UI datepicker.
+ */

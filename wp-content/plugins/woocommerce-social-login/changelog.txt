@@ -1,0 +1,11 @@
+*** WooCommerce Social Login Changelog ***
+
+2014.08.12 - version 1.0.2
+ * Fix - Really fix error with PHP 5.2 environments
+
+2014.08.12 - version 1.0.1
+ * Tweak - Improve layout when using shortcode
+ * Fix - Fix error with PHP 5.2 environments
+
+2014.08.12 - version 1.0
+ * Initial Release :)

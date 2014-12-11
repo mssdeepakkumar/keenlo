@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-reservations.css
+* File Version            : 1.0
+* Created / Last Modified : 15 July 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end reservations stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin reservations.
+ */
+.DOPBSP-admin .main table.content-wrapper col.column1.reservations{
+    width: 375px;
+}
+
+/*
+ * Begin filters.
+ */
+
+/*
+ * Buttons.
+ */
+.DOPBSP-admin .main .button.reservations-add-button,
+.DOPBSP-admin .main .button.reservations-calendar-button,
+.DOPBSP-admin .main .button.reservations-list-button{
+    background-image: url('../images/sprite.png');
+    height: 30px;
+    width: 30px;
+}
+
+.DOPBSP-admin .main .button.reservations-add-button .info,
+.DOPBSP-admin .main .button.reservations-calendar-button .info,
+.DOPBSP-admin .main .button.reservations-list-button .info{
+    margin: 32px 0 0 0;
+}
+
+.DOPBSP-admin .main .button.reservations-add-button{
+    background-position: 0 -350px;
+}
+
+.DOPBSP-admin .main .button.reservations-calendar-button{
+    background-position: -30px -350px;
+}
+
+.DOPBSP-admin .main .button.reservations-list-button{
+    background-position: -60px -350px;
+}
+
+.DOPBSP-admin .main .button.reservations-add-button.dopbsp-disabled,
+.DOPBSP-admin .main .button.reservations-calendar-button.dopbsp-disabled,
+.DOPBSP-admin .main .button.reservations-list-button.dopbsp-disabled{
+    background-color: #c9c9c9;
+    /*background-image: url('../images/sprite.png') !important;*/
+    cursor: default;
+    opacity: 0.5;
+}
+
+/*
+ * Statuses
+ */
+#DOPBSP-reservations-pending-label{
+    color: #000000 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your PENDING color. */
+}
+
+#DOPBSP-reservations-approved-label{
+    color: #9cbc72 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your APPROVED color. */
+}
+
+#DOPBSP-reservations-rejected-label{
+    color: #f1705c !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your REJECTED color. */
+}
+
+#DOPBSP-reservations-canceled-label{
+    color: #fdaa29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your CANCELED color. */
+}
+
+#DOPBSP-reservations-expired-label{
+    color: #56a8e7 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your EXPIRED color. */
+}
+/*
+ * Begin filters.
+ */
+
+/* Reservations Calendar */
+
+.DOPBSP-admin .reservations-calendar{
+    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e3;
+}
+
+#DOPBSP-Calendar-reservations{
+    margin: 10px;
+}
+
+/*
+ * Begin reservations list.
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list{
+    margin: -20px -10px !important;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li{
+    border-bottom: 1px solid #464646;
+    margin: 0;
+    padding: 0;
+}
+
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li.no-data{
+    border: none;
+    color: #acacac;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px 19px;
+}
+
+/*
+ * *************************************************** Begin reservation header.
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head{
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px 9px 9px 9px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .icon{
+    background: url('../images/sprite.png');
+    float: left;
+    height: 40px;
+    margin: 0 20px 0 0;
+    width: 40px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .icon.pending{
+    background-position: 0 -310px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .icon.approved{
+    background-position: -40px -310px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .icon.rejected{
+    background-position: -80px -310px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .icon.canceled{
+    background-position: -120px -310px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .icon.expired{
+    background-position: -160px -310px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title{
+    color: #666666;
+    float: left;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title strong{
+    color: #464646;
+    font-weight: bold;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title .pending{
+    color: #000000 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your PENDING color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title .approved{
+    color: #9cbc72 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your APPROVED color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title .rejected{
+    color: #f1705c !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your REJECTED color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title .canceled{
+    color: #fdaa29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your CANCELED color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .title .expired{
+    color: #56a8e7 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your EXPIRED color. */
+}
+
+/*
+ * Buttons
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper{
+    float: right;
+    padding: 5px 0 0 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-approve,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-reject,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-cancel,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-delete{
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 0 0 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 80px;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-approve{
+    background: #9cbc72 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your APPROVED color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-reject{
+    background: #f1705c !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your REJECTED color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-cancel{
+    background: #fdaa29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your CANCELED color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-delete{
+    background: #fd4c29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your DELETE color. */
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-approve:hover,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-reject:hover,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-cancel:hover,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-head .buttons-wrapper .button-delete:hover{
+    background: #ff6300 !important;
+}
+/*
+ * ***************************************************** End reservation header.
+ */
+
+/*
+ * ************************************************** Begin reservation content.
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body{
+    margin: 0;
+    padding: 19px 9px 0 19px; 
+}
+
+/*
+ * Data module.
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    float: left;
+    margin: 0 10px 20px 0;
+    width: 348px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-head{
+    background: #e6e6e6;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 19px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-head h3{
+    background: #e6e6e6;
+    border: none !important;
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding: 4px 0 5px 0 !important;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body{
+    padding: 20px 19px 14px 19px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body em{
+    color: #acacac;
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field{
+    overflow: hidden;
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field em{
+    margin: 0;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field label{
+    color: #898989;
+    float: left;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 10px 0 0;
+    width: 120px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field .data-value{
+    color: #666666;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0;
+    width: 180px;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field .data-value a{
+    color: #ff6300;
+    text-decoration: none;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field .data-value a:hover{
+    text-decoration: underline;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field .data-value .info-price{
+    font-weight: bold;
+}
+
+/*
+ * Price field.
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field.price label,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field.price-total label{
+    color: #252525;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field.price .data-value,
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field.price-total .data-value{
+    color: #252525;
+    font-weight: bold;
+}
+
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field.price-total .data-value{
+    color: #ff6300;
+}
+
+/*
+ * No data field.
+ */
+.DOPBSP-admin .main table.content-wrapper .reservations-list li .reservation-body .data-module .data-body .data-field.no-data .data-value{
+    color: #acacac;
+    font-style: italic;
+}
+/*
+ * **************************************************** End reservation content.
+ */
+/*
+ * ***************************************************************************** End reservations.
+ */

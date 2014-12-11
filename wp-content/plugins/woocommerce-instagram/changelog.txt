@@ -1,0 +1,17 @@
+*** WooCommerce Instagram Changelog ***
+
+2014.04.10 - version 1.0.3
+* Fix - Ensures the 'headers already sent' notice does not display, by starting the output buffer.
+* Fix - Fixes the connect/disconnect redirect URL to point to the correct admin screen if using WooCommerce 2.1 or higher.
+  /classes/class-woocommerce-instagram-integration.php
+
+2014.04.01 - version 1.0.2
+* Fix - Corrects the "page" parameter in the admin notice URL, for WooCommerce 2.1+ users.
+  /classes/class-woocommerce-instagram-admin.php
+
+2013.11.06 - version 1.0.1
+* /assets/css/admin.css - Optimises CSS to use correct LESS syntax and to correctly style the write panel icon in WooCommerce 2.0.x.
+* /classes/class-woocommerce-instagram-admin.php - Optimises WooCommerce 2.0.x and 2.1.x compatibility switching.
+
+2013.10.29 - version 1.0.0
+ * First release. Woo!

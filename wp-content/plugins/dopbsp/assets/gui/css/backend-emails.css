@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-emails.css
+* File Version            : 1.0
+* Created / Last Modified : 03 June 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end emails stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin emails.
+ */
+.DOPBSP-admin .input-wrapper input[type=text].subject{
+    width: 100%;
+}
+
+.DOPBSP-admin .input-wrapper textarea.message{
+    width: 100%;
+}
+
+.DOPBSP-admin .input-wrapper.book-user,
+.DOPBSP-admin .input-wrapper.book-with-approval-admin,
+.DOPBSP-admin .input-wrapper.book-with-approval-user,
+.DOPBSP-admin .input-wrapper.paypal-admin,
+.DOPBSP-admin .input-wrapper.paypal-user,
+.DOPBSP-admin .input-wrapper.approved,
+.DOPBSP-admin .input-wrapper.canceled,
+.DOPBSP-admin .input-wrapper.rejected{
+    display: none;
+}
+/*
+ * ***************************************************************************** End emails.
+ */

@@ -1,0 +1,541 @@
+# Copyright (C) 2014 WooCommerce Product Vendors
+# This file is distributed under the same license as the WooCommerce Product Vendors package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Vendors 1.1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/woocommerce-product-vendors\n"
+"POT-Creation-Date: 2014-08-29 07:11:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class-woocommerce-product-vendors-commissions.php:68
+msgctxt "post type general name"
+msgid "Commissions"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:69
+msgctxt "post type singular name"
+msgid "Commission"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:71
+msgid "Add New %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:71
+#: classes/class-woocommerce-product-vendors-commissions.php:72
+#: classes/class-woocommerce-product-vendors-commissions.php:73
+#: classes/class-woocommerce-product-vendors-commissions.php:75
+#: classes/class-woocommerce-product-vendors.php:493
+#: classes/class-woocommerce-product-vendors.php:581
+msgid "Commission"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:72
+msgid "Edit %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:73
+msgid "New %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:74
+msgid "All %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:74
+#: classes/class-woocommerce-product-vendors-commissions.php:76
+#: classes/class-woocommerce-product-vendors-commissions.php:77
+#: classes/class-woocommerce-product-vendors-commissions.php:78
+#: classes/class-woocommerce-product-vendors-commissions.php:80
+#: classes/class-woocommerce-product-vendors.php:1803
+msgid "Commissions"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:75
+msgid "View %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:76
+msgid "Search %a"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:77
+msgid "No %s Found"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:78
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:116
+msgid "Show all paid statuses"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:117
+msgid "Paid"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:118
+msgid "Unpaid"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:153
+#: classes/class-woocommerce-product-vendors.php:1309
+msgid "Product"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:154
+#: classes/class-woocommerce-product-vendors.php:126
+#: classes/class-woocommerce-product-vendors.php:1440
+msgid "Vendor"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:155
+msgid "Amount"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:156
+msgid "Status"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:239
+#: classes/class-woocommerce-product-vendors-commissions.php:242
+msgid "Commission updated."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:240
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:241
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:243
+msgid "Commission restored to revision from %s."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:244
+msgid "Commission published."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:245
+msgid "Commission saved."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:246
+msgid "Commission submitted."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:247
+msgid "Commission scheduled for: %1$s."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:247
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:248
+msgid "Commission draft updated."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:293
+msgid "Commission Details"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:473
+msgid "Enter the commission title here (optional)"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:486
+msgid "Product:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:487
+msgid "The product purchased that generated this commission."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:494
+#: classes/class-woocommerce-product-vendors-widget.php:159
+msgid "Vendor:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:495
+msgid "The vendor who receives this commission."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:502
+msgid "Amount:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:510
+msgid "Order:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:511
+msgid "The order from which this commission was generated."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:530
+#: classes/class-woocommerce-product-vendors-commissions.php:531
+msgid "Export unpaid commissions (CSV)"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:532
+#: classes/class-woocommerce-product-vendors-commissions.php:533
+msgid "Mark all commissions as paid"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:604
+msgid "Total commissions earned from %1$s as at %2$s on %3$s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:722
+msgid "%1$sAll commissions have been marked as %2$spaid%3$s.%4$s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-commissions.php:726
+msgid "%1$s%2$sYou need to add vendors before commissions can be created.%3$s %4$sClick here to add your first vendor%5$s.%6$s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-widget.php:19
+msgid "Display selected or current product vendor info."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-widget.php:21
+msgid "WooCommerce Product Vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-widget.php:97
+#: classes/class-woocommerce-product-vendors.php:1466
+msgid "More products from %1$s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-widget.php:149
+msgid "Current vendor(s)"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-widget.php:155
+msgid "Title (optional):"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors-widget.php:163
+msgid "'Current vendor(s)' will display the details of the vendors whose product(s) are being viewed at the time. It will not show on other pages."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:125
+#: classes/class-woocommerce-product-vendors.php:1214
+#: classes/class-woocommerce-product-vendors.php:1695
+msgid "Product Vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:127
+#: classes/class-woocommerce-product-vendors.php:1440
+#: classes/class-woocommerce-product-vendors.php:1802
+msgid "Vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:128
+msgid "Search Vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:129
+msgid "All Vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:130
+msgid "Parent Vendor"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:131
+msgid "Parent Vendor:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:132
+msgid "View Vendor"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:133
+msgid "Edit Vendor"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:134
+msgid "Update Vendor"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:135
+msgid "Add New Vendor"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:136
+msgid "New Vendor Name"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:137
+msgid "Popular Vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:138
+msgid "Separate vendors with commas"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:139
+msgid "Add or remove vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:140
+msgid "Choose from most used vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:141
+msgid "No vendors found"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:172
+#: classes/class-woocommerce-product-vendors.php:212
+msgid "Vendor Commission"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:174
+msgid "OPTIONAL: Enter the percentage of the sale price that will go to each product vendor. If no value is entered then the vendor's default commission will be used."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:265
+msgid "Most Used"
+msgstr ""
+
+#. translators: %s: add new taxonomy label
+
+#: classes/class-woocommerce-product-vendors.php:291
+msgid "+ %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:314
+#: classes/class-woocommerce-product-vendors.php:422
+msgid "Vendor Details"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:426
+msgid "PayPal account email address:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:428
+msgid "Vendor description:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:435
+msgid "Save Details"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:444
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:487
+#: classes/class-woocommerce-product-vendors.php:573
+msgid "Vendor admins (optional)"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:489
+#: classes/class-woocommerce-product-vendors.php:576
+msgid "A list of users who can manage this vendor's products and view the sales reports."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:495
+#: classes/class-woocommerce-product-vendors.php:584
+msgid "The percent of the total sale price that this vendor will receive - can be modified per product."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:499
+#: classes/class-woocommerce-product-vendors.php:589
+msgid "PayPal email address"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:501
+#: classes/class-woocommerce-product-vendors.php:592
+msgid "The PayPal email address of the vendor where their profits will be delivered."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:938
+msgid "Commission - %s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:938
+msgctxt "Commission date parsed by strftime"
+msgid "%B %e, %Y @ %I:%M %p"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1054
+msgid "You do not have permission to edit this product. %1$sClick here to view and edit your products%2$s."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1217
+msgid "Overview"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1223
+msgid "Vendor Sales"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1284
+msgid "All months"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1291
+msgid "All years"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1299
+msgid "Select report date:"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1310
+#: woocommerce-product-vendors-reports.php:376
+msgid "Sales"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1311
+msgid "Earnings"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1327
+msgid "Total"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1332
+msgid "No sales found"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1359
+msgid "This month's earnings: %1$s"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1698
+msgid "Product listings"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1699
+msgid "Hide vendor products from other product listings"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1702
+msgid "Hide products belonging to vendors from other product listings - this means that vendor products will only be visible on the individual vendor pages."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1708
+msgid "Admin review"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1709
+msgid "Skip admin review for vendors"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1712
+msgid "Allow vendors to add products without the need for admin review - after changing this option you will need to resave each vendor."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1718
+msgid "Base commission"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1719
+msgid "This sets the default commission percentage that will be applied if no product or vendor commission is specified."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1733
+msgid "Coupon handling"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1734
+msgid "Include coupons in commission calculations"
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1737
+msgid "Decide whether vendor commissions should take coupons into account or not."
+msgstr ""
+
+#: classes/class-woocommerce-product-vendors.php:1777
+msgid "%1$sVendor details have been updated.%2$s"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:61
+msgid "Total sales"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:63
+#: woocommerce-product-vendors-reports.php:69
+#: woocommerce-product-vendors-reports.php:75
+#: woocommerce-product-vendors-reports.php:81
+#: woocommerce-product-vendors-reports.php:87
+msgid "n/a"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:67
+msgid "Total orders"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:73
+msgid "Average order total"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:79
+#: woocommerce-product-vendors-reports.php:163
+msgid "Total earned"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:85
+#: woocommerce-product-vendors-reports.php:168
+msgid "Total earned by vendors"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:93
+msgid "This month's sales"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:173
+msgid "Number of orders"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:269
+msgid "Search for a vendor&hellip;"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:269
+msgid "Show"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:371
+msgid "Sales and earnings for %s:"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:375
+msgid "Month"
+msgstr ""
+
+#: woocommerce-product-vendors-reports.php:397
+msgid "No sales :("
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Vendors"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.woothemes.com/products/product-vendors/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Set up a multi-vendor marketplace that allows vendors to manage their own products and earn commissions, or simply assign commissions from sales."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woothemes.com/"
+msgstr ""

@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-extras.css
+* File Version            : 1.0
+* Created / Last Modified : 02 March 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end extras stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin extras.
+ */
+/*
+ * ************************************************** Begin extra groups header.
+ */
+.DOPBSP-admin .extra-groups-header{
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    border-left: none;
+    height: 38px;
+    margin: 0 -10px 20px -10px;
+}
+
+.DOPBSP-admin .extra-groups-header h3{
+    border: none !important;
+    color: #464646;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.DOPBSP-admin .extra-groups-header .button{
+    background-image: url('../images/sprite.png');
+    background-position: -41px -1px;
+    display: block;
+    height: 38px;
+    margin: 0 10px;
+    width: 38px;
+}
+
+.DOPBSP-admin .extra-groups-header .button .info{
+    margin: 40px 0 0 0;
+}
+/*
+ * **************************************************** End extra groups header.
+ */
+
+/*
+ * ********************************************************* Begin extra groups.
+ */
+.DOPBSP-admin .extra-groups{
+    list-style: none;
+}
+
+.DOPBSP-admin .extra-groups .placeholder{
+    border: 1px dashed #ff6300;
+    height: 58px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper{
+    background-color: #fafafa;
+    padding: 20px 10px;
+    margin: 0 0 1px 0;
+    position: relative;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .preview{
+    float: left;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .preview.input-wrapper{
+    margin: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .preview.input-wrapper label{
+    display: block;
+    float: none;
+    font-style: italic;
+    margin: 0;
+    width: 600px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .preview.input-wrapper label .required{
+    color: #f1705c;
+}
+
+/*
+ * Buttons
+ */
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper{
+    bottom: 0px;
+    position: absolute;
+    right: 10px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper .button{
+    background-color: #acacac;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper .button:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper .button.toggle{
+    background-image: url('../images/sprite.png');
+    background-position: 0 -120px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -80px -120px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper .button.handle{
+    background-image: url('../images/sprite.png');
+    background-position: -120px -120px;
+    cursor: move;
+}
+   
+.DOPBSP-admin .extra-groups .group-wrapper .preview-wrapper .buttons-wrapper .button:hover{
+    background-color: #ff6300;
+}
+
+/*
+ * Settings
+ */
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper{
+    background: #fafafa;
+    display: none;
+    padding: 19px 10px 20px 10px;
+}
+
+/* 
+ * Select options
+ */
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper{
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .button{
+    height: 30px;
+    width: 30px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .button .info{
+    margin: 32px 0 0 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .buttons{
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .buttons .button.add{
+    background-image: url('../images/sprite.png');
+    background-position: -165px -125px;
+    margin: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items-labels{
+    margin: 0 0 10px 150px;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items-labels li{
+    color: #acacac;
+    float: left;
+    font-weight: 300;
+    margin: 0 5px 0 0;
+    width: 80px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items-labels li:first-child{
+    width: 170px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items{
+    margin: 0 0 0 150px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items li{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items li:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items li .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .placeholder{
+    height: 28px;
+    width: 580px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .input-wrapper input[type=text].small,
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .input-wrapper .DOPSelect.single.small{
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items li:last-child .input-wrapper{
+    margin: 0;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .input-wrapper .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -85px -125px;
+    margin: 0 0 0 5px;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper .settings-wrapper .items-wrapper .items .input-wrapper .button.handle{
+    background-image: url('../images/sprite.png');
+    background-position: -125px -125px;
+    cursor: move;
+    margin: 0 0 0 5px;
+}
+
+/*
+ * Displayed extra group.
+ */
+.DOPBSP-admin .extra-groups .group-wrapper.displayed .settings-wrapper{
+    display: block;
+}
+
+.DOPBSP-admin .extra-groups .group-wrapper.displayed .preview-wrapper .buttons-wrapper .button.toggle{
+    background-position: -40px -120px;
+}
+/*
+ * *********************************************************** End extra groups.
+ */
+/*
+ * ***************************************************************************** End extras.
+ */

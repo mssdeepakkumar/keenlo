@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-discounts.css
+* File Version            : 1.0
+* Created / Last Modified : 04 June 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end discounts stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin discounts.
+ */
+/*
+ * ************************************************** Begin discount items header.
+ */
+.DOPBSP-admin .discount-items-header{
+    border: 1px solid #e6e6e6;
+    border-right: none;
+    border-left: none;
+    height: 38px;
+    margin: 0 -10px 20px -10px;
+}
+
+.DOPBSP-admin .discount-items-header h3{
+    border: none !important;
+    color: #464646;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.DOPBSP-admin .discount-items-header .button{
+    background-image: url('../images/sprite.png');
+    background-position: -41px -1px;
+    display: block;
+    height: 38px;
+    margin: 0 10px;
+    width: 38px;
+}
+
+.DOPBSP-admin .discount-items-header .button .info{
+    margin: 40px 0 0 0;
+}
+/*
+ * **************************************************** End discount items header.
+ */
+
+/*
+ * ********************************************************* Begin discount items.
+ */
+.DOPBSP-admin .discount-items{
+    list-style: none;
+}
+
+.DOPBSP-admin .discount-items .placeholder{
+    border: 1px dashed #ff6300;
+    height: 58px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.DOPBSP-admin .discount-items .placeholder:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper{
+    background-color: #fafafa;
+    padding: 20px 10px;
+    margin: 0 0 1px 0;
+    position: relative;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .preview{
+    float: left;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .preview.input-wrapper{
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .preview.input-wrapper label{
+    display: block;
+    float: none;
+    font-style: italic;
+    margin: 0;
+    width: 600px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .preview.input-wrapper label .required{
+    color: #f1705c;
+}
+
+/*
+ * Buttons
+ */
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper{
+    bottom: 0px;
+    position: absolute;
+    right: 10px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper .button{
+    background-color: #acacac;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper .button:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper .button.toggle{
+    background-image: url('../images/sprite.png');
+    background-position: 0 -120px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -80px -120px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper .button.handle{
+    background-image: url('../images/sprite.png');
+    background-position: -120px -120px;
+    cursor: move;
+}
+   
+.DOPBSP-admin .discount-items .item-wrapper .preview-wrapper .buttons-wrapper .button:hover{
+    background-color: #ff6300;
+}
+
+/*
+ * Settings
+ */
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper{
+    background: #fafafa;
+    display: none;
+    padding: 19px 10px 20px 10px;
+}
+
+/* 
+ * Select options
+ */
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper{
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .button{
+    height: 30px;
+    width: 30px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .button .info{
+    margin: 32px 0 0 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .buttons{
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .buttons .button.add{
+    background-image: url('../images/sprite.png');
+    background-position: -165px -125px;
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules{
+    margin: 0 0 0 150px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules li.item-rule-wrapper{
+    border: 1px solid #e6e6e6;
+    background: #f1f1f1;
+    margin: 0 0 5px 0;
+    padding: 9px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules li.item-rule-wrapper:last-child{
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules li.item-rule-wrapper .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .placeholder{
+    background: none;
+    height: 123px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper{
+    margin: 0 0 5px 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .no-margin{
+    margin: 0 !important;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper label{
+    margin: 5px 0 0 20px;
+    width: auto;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper label.no-margin{
+    margin: 5px 0 0 0 !important;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper input[type=text].date{
+    background-image: url('../images/sprite.png');
+    background-position: -5px -207px;
+    margin: 0 0 5px 0;
+    padding: 4px 9px 4px 34px;
+    width: 135px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .DOPSelect.single.hour{
+    float: left;
+    margin: 0 0 5px 5px;
+    width: 135px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .DOPSelect.single.hour .selection{
+    background-image: url('../images/sprite.png');
+    background-position: -5px -246px;
+    padding: 0 0 0 30px;
+    width: 75px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .DOPSelect.single.hour ul{
+    width: 143px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper input[type=text].small,
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .DOPSelect.single.small{
+    float: left;
+    margin: 0 0 5px 5px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules li.item-rule-wrapper:last-child .input-wrapper{
+    margin: 0;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .button.delete{
+    background-image: url('../images/sprite.png');
+    background-position: -85px -125px;
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper .settings-wrapper .rules-wrapper .rules .input-wrapper .button.handle{
+    background-image: url('../images/sprite.png');
+    background-position: -125px -125px;
+    cursor: move;
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+/*
+ * Displayed discount item.
+ */
+.DOPBSP-admin .discount-items .item-wrapper.displayed .settings-wrapper{
+    display: block;
+}
+
+.DOPBSP-admin .discount-items .item-wrapper.displayed .preview-wrapper .buttons-wrapper .button.toggle{
+    background-position: -40px -120px;
+}
+/*
+ * *********************************************************** End discount items.
+ */
+/*
+ * ***************************************************************************** End discounts.
+ */

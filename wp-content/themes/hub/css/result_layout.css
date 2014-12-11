@@ -1,0 +1,350 @@
+
+
+  #maintop_result > option,
+  #mySelect > option,
+  #payvendor > option{    
+    border-bottom: 2px solid #f8d1d4;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    outline: medium none;
+  }
+  .archive-header .p-user-hoder{
+    float: right;
+    display: inline-block;
+  }
+
+#payvendor > option:nth-child(1) {
+   display: none;
+}
+#payvendor > option {
+    width: 100px;
+}
+  .for_admin {
+      float: right;
+  }
+ 
+/*----*/
+
+ul .pa_location,
+ul .pa_feed-or-not {
+    display: none !important;
+}
+
+table {
+    margin: 0 0 1.618em;
+}
+#main{
+width : auto;
+margin 0 auto;
+float : none;
+}
+
+.week_days .menu-item{
+    background: #F8C57F;
+    display: inline-block;
+    height: 35px;
+    margin-right: 5px;
+    width: 150px;
+}
+
+.page-template-homeresult-php .content {
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+}
+
+.prdct-tbl-td a:hover {
+     cursor: pointer;
+}
+.prdct-tab li {
+    margin-right: 5px !important;
+}
+#main .week_days .selected {
+    background: none repeat scroll 0 0 #f3931f;
+}
+#main .prdct-tab #ap-pt-tab-vendor {
+    display: block !important;
+}
+.pay_vendor {
+    margin-right: 10px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+@media all and (max-width: 479px) and (min-width: 320px) {
+
+.location_drop_down, .tabs_maintop, .pay_vendor {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/selct-drop-arrow.png");
+    background-origin: padding-box;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: 1px solid #3ebdb7;
+    border-radius: 20px;
+    display: inline-block;
+    float: none;    
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.location_drop_down > form,
+.tabs_maintop_inner,
+.pay_vendor_inner {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    width: 125px;
+}
+ 
+ .location_drop_down select,
+.tabs_maintop select,
+.pay_vendor select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #3ebdb7;
+    padding: 5px;
+    float: left;
+    font-weight: 400;
+}
+
+}
+@media all and (max-width: 599px) and (min-width: 480px) {
+ 
+.location_drop_down, .tabs_maintop, .pay_vendor {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/selct-drop-arrow.png");
+    background-origin: padding-box;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: 1px solid #3ebdb7;
+    border-radius: 20px;
+    display: inline-block;
+    float: none;    
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.location_drop_down > form,
+.tabs_maintop_inner,
+.pay_vendor_inner {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    width: 177px;
+}
+.location_drop_down select,
+.tabs_maintop select,
+.pay_vendor select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #3ebdb7;
+    padding: 5px;
+    float: left;
+    font-weight: 400;
+}
+
+.location_drop_down {
+  width: 125px;
+}
+.tabs_maintop {
+  width: 95px;
+}
+.pay_vendor {
+  width: 125px;
+}
+
+
+}
+@media all and (max-width: 767px) and (min-width: 600px) {
+ 
+.location_drop_down, .tabs_maintop, .pay_vendor {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/selct-drop-arrow.png");
+    background-origin: padding-box;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: 1px solid #3ebdb7;
+    border-radius: 20px;
+    display: inline-block;
+    float: none;    
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.location_drop_down > form,
+.tabs_maintop_inner,
+.pay_vendor_inner {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    width: 177px;
+}
+.location_drop_down select,
+.tabs_maintop select,
+.pay_vendor select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #3ebdb7;
+    padding: 5px;
+    float: left;
+    font-weight: 400;
+}
+
+.location_drop_down {
+  width: 125px;
+}
+.tabs_maintop {
+  width: 95px;
+}
+.pay_vendor {
+  width: 125px;
+}
+
+}
+@media all and (max-width: 799px) and (min-width: 768px) {
+ 
+.location_drop_down, .tabs_maintop, .pay_vendor {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/selct-drop-arrow.png");
+    background-origin: padding-box;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: 1px solid #3ebdb7;
+    border-radius: 20px;
+    display: inline-block;
+    float: none;    
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.location_drop_down > form,
+.tabs_maintop_inner,
+.pay_vendor_inner {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    width: 177px;
+}
+
+.location_drop_down select,
+.tabs_maintop select,
+.pay_vendor select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #3ebdb7;
+    padding: 5px;
+    float: left;
+    font-weight: 400;
+}
+
+.location_drop_down {
+  width: 125px;
+}
+.tabs_maintop {
+  width: 95px;
+}
+.pay_vendor {
+  width: 125px;
+}
+
+}
+@media all and (max-width: 1023px) and (min-width: 800px) {
+ 
+.location_drop_down, .tabs_maintop, .pay_vendor {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/selct-drop-arrow.png");
+    background-origin: padding-box;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: 1px solid #3ebdb7;
+    border-radius: 20px;
+    display: inline-block;
+    float: none;    
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.location_drop_down > form,
+.tabs_maintop_inner,
+.pay_vendor_inner {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    width: 177px;
+}
+.location_drop_down select,
+.tabs_maintop select,
+.pay_vendor select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #3ebdb7;
+    padding: 5px;
+    float: left;
+    font-weight: 400;
+}
+.location_drop_down {
+  width: 125px;
+}
+.tabs_maintop {
+  width: 95px;
+}
+.pay_vendor {
+  width: 125px;
+}
+
+
+}
+@media all and (min-width: 1024px) {
+ 
+.location_drop_down, .tabs_maintop, .pay_vendor {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/selct-drop-arrow.png");
+    background-origin: padding-box;
+    background-position: 5px 12px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border: 1px solid #3ebdb7;
+    border-radius: 20px;
+    display: inline-block;
+    float: none;    
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.location_drop_down > form,
+.tabs_maintop_inner,
+.pay_vendor_inner {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    width: 177px;
+}
+.location_drop_down select,
+.tabs_maintop select,
+.pay_vendor select {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #3ebdb7;
+    padding: 5px;
+    float: left;
+    font-weight: 400;
+}
+
+.location_drop_down {
+  width: 125px;
+}
+.tabs_maintop {
+  width: 95px;
+}
+.pay_vendor {
+  width: 140px;
+}
+
+}
+

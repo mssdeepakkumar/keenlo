@@ -1,0 +1,149 @@
+.wpep_back{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.85);
+	z-index: 99999;
+	overflow-y: scroll;
+	position: fixed;
+	display: none;
+}
+.wpep_popup {
+	position: relative;
+	width: 70%;
+	height: auto;
+	z-index: 2000;
+	background: #fff;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	-webkit-transform: translate(0,0);
+	margin: 50px auto;
+}
+.wpep_popup > .wpep_close{
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+	opacity: .8;
+	font-size: 1.25em;
+	top: -1.75em;
+	right: -1.75em;
+	color: #FFF;
+	display: inline-block;
+	margin: 0.8em 0.8em 0 0;
+	width: 28px;
+	height:29px;
+	background: url(../images/close4.png);
+}
+.wpep_popup > .header{
+	font-size: 1.3em;
+	margin: 0;
+	padding: 1.5rem 2rem;
+	font-weight: 700;
+	border-radius: .325em .325em 0 0;
+	display: block;
+	background: #fff;
+}
+.wpep_popup > .content{
+	background-color: #F4F4F4;
+	color: #555555;
+	font-size: 15px;
+	line-height: 1;
+	overflow: hidden;
+}
+.wpep_popup > .footer{
+	padding: 1rem 2rem;
+	text-align: right;
+	color: #555555;
+	line-height: 1;
+}
+.wpep_popup .content img.wpep_img{
+	width: 100%!important;
+	height: auto!important;
+}
+.wpep_popup .content iframe.fb_widget{
+	width: 100%!important;
+}
+.wpep_time{
+	text-align: center;
+	font-size: 1.2em;
+	color: #000;
+}
+@media (max-width: 750px){
+	.wpep_popup {
+		width: 90%!important;
+	}
+}
+
+/* login */
+
+.wpep_popup .content form {
+  background:#f7f7f7;
+  padding:2em;
+  width:auto;
+  border-radius:3px;
+  border:1px solid #dbdbdb;
+}
+
+.wpep_popup .content input[type="text"],
+.wpep_popup .content input[type="password"] {
+  width:90%;
+}
+
+.wpep_popup .content form *:not(label),
+.wpep_popup .content form *:not(.checkbox) {
+  display:block;
+}
+
+.wpep_popup .content form label,
+.wpep_popup .content form .checkbox {
+  display:inline;
+  float:left;
+}
+
+/*Inputs*/
+.wpep_popup .content input[type="text"],
+.wpep_popup .content input[type="password"] {
+  padding:10px;
+  border:1px solid #dbdbdb;
+  border-radius:3px;
+  font-size:14px;
+  margin-bottom:15px;
+  float: left;
+}
+
+/*Remeber Me*/
+.wpep_popup .content label {
+  color:#9b9b9b;
+  margin-right:10px;
+  height:28px;
+  line-height:28px;
+}
+
+.wpep_popup .content input[type="checkbox"] {
+  display: inline;
+}
+
+/*Button*/
+.wpep_popup .content input[type="submit"] {
+  clear:both;
+  appearance:none;
+  border:none;
+  background:#32a7be;
+  padding:10px 0;
+  width:100%;
+  font-size:14px;
+  border-radius:3px;
+  color:#fff;
+  cursor:pointer;
+}
+
+.wpep_popup .content input[type="submit"]:hover,
+.wpep_popup .content input[type="submit"]:focus {
+  background:#2d8fa2;
+}
+
+.wpep_popup .content input[type="submit"]:active {
+  box-shadow:inset 0 0 4px #3b3b3b;
+}

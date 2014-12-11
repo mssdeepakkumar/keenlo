@@ -1,0 +1,13 @@
+#mikex-settings input {
+    margin-bottom: 20px;
+    width: 10em;
+}
+#mikex-settings label {
+    display: inline-block;
+    font-size: 1.2em;
+    width: 8em;
+}
+#mikex-settings .update-status {
+    margin-left: 20px;
+    font-size: 0.8em;
+}

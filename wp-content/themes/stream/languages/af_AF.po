@@ -1,0 +1,1273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stream v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-27 15:26:28+0000\n"
+"Last-Translator: heath <heath@f-d.com.au>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Afrikaans\n"
+"X-Poedit-Country: SOUTH AFRICA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:19
+#@ upbootwp
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+#@ upbootwp
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:31
+#@ upbootwp
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:48
+#, php-format
+#@ upbootwp
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:71
+#@ framework
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: archive.php:75
+#@ framework
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: archive.php:93
+#@ framework
+msgid "Last 20 Posts"
+msgstr ""
+
+#: archive.php:102
+#@ framework
+msgid "Archives by Month"
+msgstr ""
+
+#: archive.php:106
+#@ framework
+msgid "Categories"
+msgstr ""
+
+#: archive.php:110
+#@ framework
+msgid "Authors"
+msgstr ""
+
+#: comments.php:34
+#, php-format
+#@ upbootwp
+msgctxt "comments title"
+msgid "1 Comment;"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+#: comments.php:61
+#@ upbootwp
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42
+#: comments.php:62
+#@ upbootwp
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43
+#: comments.php:63
+#@ upbootwp
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:73
+#@ upbootwp
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:93
+#, php-format
+#@ default
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:99
+#, php-format
+#@ default
+msgid "<a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:118
+#@ domainreference
+msgid "Name"
+msgstr ""
+
+#: comments.php:124
+#@ domainreference
+msgid "Email"
+msgstr ""
+
+#: comments.php:131
+#@ domainreference
+msgid "Website"
+msgstr ""
+
+#: content-page.php:20
+#: content-single.php:38
+#: image.php:64
+#: page-templates/content-full-width.php:59
+#: page-templates/landing-full-width.php:44
+#@ upbootwp
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:25
+#: content-single.php:79
+#: image.php:55
+#: image.php:82
+#: inc/template-tags.php:85
+#: inc/template-tags.php:91
+#: page-templates/content-full-width.php:64
+#: page-templates/landing-full-width.php:49
+#@ upbootwp
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:47
+#: content-single.php:50
+#@ upbootwp
+msgid ", "
+msgstr ""
+
+#: content-single.php:55
+#, php-format
+#@ upbootwp
+msgid " %2$s."
+msgstr ""
+
+#: content-single.php:63
+#, php-format
+#@ upbootwp
+msgid "in %1$s <br><br> %2$s. "
+msgstr ""
+
+#: content-single.php:65
+#, php-format
+#@ upbootwp
+msgid " in %1$s."
+msgstr ""
+
+#: functions.php:33
+#@ Bootstrap WP Primary
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:34
+#@ Stream
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:59
+#@ upbootwp
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:61
+#@ fd
+msgid "Widgets in this area will be shown on the right-hand side of a page."
+msgstr ""
+
+#: functions.php:70
+#@ fd
+msgid "Widgets in this area will be shown above the content."
+msgstr ""
+
+#: functions.php:79
+#@ fd
+msgid "Widgets in this area will be shown below the blog content."
+msgstr ""
+
+#: functions.php:88
+#@ fd
+msgid "Display widgets on the right-hand side of a post."
+msgstr ""
+
+#: functions.php:97
+#@ fd
+msgid "Display widgets below the post content."
+msgstr ""
+
+#: functions.php:106
+#@ fd
+msgid "Widgets in this area will be shown in the first column of the footer."
+msgstr ""
+
+#: functions.php:115
+#@ fd
+msgid "Widgets in this area will be shown in the second column of the footer."
+msgstr ""
+
+#: functions.php:124
+#@ fd
+msgid "Widgets in this area will be shown in the third column of the footer."
+msgstr ""
+
+#: functions.php:133
+#@ fd
+msgid "Widgets in this area will be shown in the fourth column of the footer."
+msgstr ""
+
+#: functions.php:440
+#@ default
+msgid "Please enable referrers in your browser, or, if you're a spammer, get out of here!"
+msgstr ""
+
+#: header.php:32
+#: searchform.php:12
+#@ wpex
+#@ upbootwp
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: image.php:26
+#@ upbootwp
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:27
+#@ upbootwp
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: image.php:44
+#, php-format
+#@ upbootwp
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#: image.php:73
+#, php-format
+#@ upbootwp
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:75
+#, php-format
+#@ upbootwp
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: image.php:77
+#@ upbootwp
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: image.php:79
+#@ upbootwp
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: inc/categories-images.php:45
+#: inc/categories-images.php:66
+#: inc/categories-images.php:210
+#@ zci
+msgid "Image"
+msgstr ""
+
+#: inc/categories-images.php:48
+#: inc/categories-images.php:68
+#: inc/categories-images.php:192
+#@ zci
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/categories-images.php:69
+#: inc/categories-images.php:193
+#@ zci
+msgid "Remove image"
+msgstr ""
+
+#: inc/categories-images.php:228
+#@ zci
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/categories-images.php:255
+#@ zci
+msgid "Categories Images settings"
+msgstr ""
+
+#: inc/categories-images.php:256
+#@ zci
+msgid "Excluded Taxonomies"
+msgstr ""
+
+#: inc/categories-images.php:261
+#@ zci
+msgid "Please select the taxonomies you want to exclude it from Categories Images plugin"
+msgstr ""
+
+#: inc/categories-images.php:281
+#@ zci
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/categories-images.php:286
+#@ zci
+msgid "Categories Images"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:153
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:154
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:155
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:156
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:157
+#, php-format
+#@ stream
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:158
+#, php-format
+#@ stream
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:159
+#, php-format
+#@ stream
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:160
+#, php-format
+#@ stream
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:161
+#, php-format
+#@ stream
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:162
+#, php-format
+#@ stream
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:163
+#, php-format
+#@ stream
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:164
+#, php-format
+#@ stream
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:165
+#@ stream
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:166
+#@ stream
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:167
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:168
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:169
+#: inc/class-tgm-plugin-activation.php:1838
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:171
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:172
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1083
+#@ tgmpa
+msgid "External Link"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1088
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1091
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1095
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1098
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1098
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1101
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1103
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1273
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1289
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1290
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1291
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1292
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1310
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1311
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/class-tgm-plugin-activation.php:1536
+#: inc/class-tgm-plugin-activation.php:170
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:1821
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1822
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1823
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1824
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1825
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1826
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1837
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1947
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1948
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1948
+#: inc/class-tgm-plugin-activation.php:1957
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1948
+#: inc/class-tgm-plugin-activation.php:1957
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1949
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1950
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1954
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1955
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1957
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1958
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1959
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2050
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-wp-mins-to-read.php:181
+#@ WP_MinsToRead
+msgid "Min Read"
+msgstr ""
+
+#: inc/custom-css.php:122
+#: inc/custom-css.php:157
+#@ sccss
+msgid "Simple Custom CSS"
+msgstr ""
+
+#: inc/custom-css.php:122
+#@ sccss
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/custom-css.php:153
+#@ default
+msgid "Custom CSS updated successfully."
+msgstr ""
+
+#: inc/custom-css.php:158
+#@ sccss
+msgid "Simple Custom CSS allows you to add your own styles or override the default CSS of a plugin or theme."
+msgstr ""
+
+#: inc/custom-css.php:163
+#@ sccss
+msgid "Instructions"
+msgstr ""
+
+#: inc/custom-css.php:165
+#@ sccss
+msgid "Enter your custom CSS in the the texarea to the right."
+msgstr ""
+
+#: inc/custom-css.php:166
+#@ sccss
+msgid "Click \"Update Custom CSS.\""
+msgstr ""
+
+#: inc/custom-css.php:167
+#@ sccss
+msgid "Enjoy your new CSS styles!"
+msgstr ""
+
+#: inc/custom-css.php:172
+#@ sccss
+msgid "Allow Double Quotes"
+msgstr ""
+
+#: inc/custom-css.php:173
+#@ sccss
+msgid "Some CSS selectors use quotation marks (\").  In order to allow these, it requres a small adjustment to the way the CSS is output. It is recommended that you only enable this if it is necessary."
+msgstr ""
+
+#: inc/custom-css.php:176
+#@ sccss
+msgid "Help"
+msgstr ""
+
+#: inc/custom-css.php:177
+#@ sccss
+msgid "Simple Custom CSS Wiki"
+msgstr ""
+
+#: inc/custom-css.php:181
+#@ sccss
+msgid "This Plugin is Really Helpful!"
+msgstr ""
+
+#: inc/custom-css.php:182
+#@ sccss
+msgid "Print credit to the author within the CSS file. No text will appear on your website."
+msgstr ""
+
+#: inc/custom-css.php:193
+#@ sccss
+msgid "Update Custom CSS"
+msgstr ""
+
+#: inc/customizer.php:22
+#: inc/customizer.php:29
+#@ themeslug
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer.php:36
+#: inc/customizer.php:43
+#@ themeslug
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer.php:70
+#@ themeslug
+msgid "Features/Effects"
+msgstr ""
+
+#: inc/customizer.php:84
+#@ themeslug
+msgid "Post Views Tag"
+msgstr ""
+
+#: inc/customizer.php:103
+#@ themeslug
+msgid "Slide Posts Tiles In"
+msgstr ""
+
+#: inc/customizer.php:122
+#@ themeslug
+msgid "Reading Progress Bar"
+msgstr ""
+
+#: inc/extras.php:67
+#, php-format
+#@ upbootwp
+msgid "Page %s"
+msgstr ""
+
+#: inc/post-readtime.php:64
+#@ default
+msgid "Update options"
+msgstr ""
+
+#: inc/post-readtime.php:162
+#@ default
+msgid "Title: "
+msgstr ""
+
+#: inc/template-tags.php:40
+#@ upbootwp
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:43
+#@ upbootwp
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:52
+#@ upbootwp
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:59
+#@ upbootwp
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:85
+#@ upbootwp
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:96
+#, php-format
+#@ upbootwp
+msgid "%s <span class=\"says\"></span>"
+msgstr ""
+
+#: inc/template-tags.php:102
+#@ upbootwp
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:113
+#, php-format
+#@ upbootwp
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:202
+#, php-format
+#@ upbootwp
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#: inc/template-tags.php:210
+#, php-format
+#@ upbootwp
+msgid "View all posts by %s"
+msgstr ""
+
+#: no-results.php:14
+#@ upbootwp
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20
+#, php-format
+#@ upbootwp
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+#@ upbootwp
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:29
+#@ upbootwp
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: search.php:20
+#, php-format
+#@ upbootwp
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:12
+#@ upbootwp
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+#@ upbootwp
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:19
+#@ upbootwp
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:26
+#@ upbootwp
+msgid "Meta"
+msgstr ""
+
+#: widgets/ad-widget.php:42
+#: widgets/editor-message-widget.php:83
+#: widgets/rpwe-sidebar.php:250
+#: widgets/rpwe.php:276
+#@ FD
+#@ editor
+#@ rpwe_side
+#@ rpwe
+msgid "Title:"
+msgstr ""
+
+#: widgets/ad-widget.php:47
+#@ fd
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:115
+#@ default
+msgid "No comments"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:162
+#@ title
+msgid "Widget Title:"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:167
+#@ comments_num
+msgid "The number of comments to show"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:171
+#@ exclude_admin
+msgid "Exclude Admin Comments?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:175
+#@ author
+msgid "Display Comment Author?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:179
+#@ avatar
+msgid "Display Author Gravatar?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:183
+#@ avatar_size
+msgid "Gravatar size in pixels - <em>Default: 40</em>"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:186
+#@ float
+msgid "Float the gravatar?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:198
+#@ post_title
+msgid "Display Post Title?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:202
+#@ date
+msgid "Display Comment Date?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:205
+#@ time_format
+msgid "Choose the Time Format"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:217
+#@ comment_excerpt
+msgid "Show comment excerpts?"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:221
+#@ comment_length
+msgid "Length of excerpts, in characters"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:224
+#@ posttype
+msgid "Choose the Post Type to Display"
+msgstr ""
+
+#: widgets/better-recent-comments-widget.php:247
+#@ banago
+msgid "Anonymous"
+msgstr ""
+
+#: widgets/editor-message-widget.php:17
+#@ editor
+msgid "A widget that displays the a message from the editor name "
+msgstr ""
+
+#: widgets/editor-message-widget.php:21
+#@ editor
+msgid "&raquo;  Editor Widget"
+msgstr ""
+
+#: widgets/editor-message-widget.php:48
+#, php-format
+#@ editor
+msgid " %1$s."
+msgstr ""
+
+#: widgets/editor-message-widget.php:78
+#@ editor
+msgid "FROM THE EDITOR"
+msgstr ""
+
+#: widgets/editor-message-widget.php:89
+#@ editor
+msgid "Message:"
+msgstr ""
+
+#: widgets/most-popular.php:15
+#@ fdthemes
+msgid "Displays links to the posts with the most comments."
+msgstr ""
+
+#: widgets/most-popular.php:16
+#@ fdthemes
+msgid "Popular Posts - fd"
+msgstr ""
+
+#: widgets/post-tabs.php:25
+#@ fdthemes
+msgid "Displays tabs with Recent and Popular posts."
+msgstr ""
+
+#: widgets/post-tabs.php:26
+#@ fdthemes
+msgid "&raquo; Post Tabs"
+msgstr ""
+
+#: widgets/post-tabs.php:80
+#@ fdthemes
+msgid "Popular"
+msgstr ""
+
+#: widgets/post-tabs.php:81
+#@ fdthemes
+msgid "Recent"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:21
+#@ rpwe_side
+msgid "Advanced recent posts widget for sidebar."
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:30
+#@ rpwe_side
+msgid "&raquo; Recent Posts Widget - Sidebar"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:126
+#: widgets/rpwe.php:139
+#, php-format
+#@ rpwe_side
+#@ rpwe
+msgid "Permalink to %s"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:214
+#: widgets/rpwe.php:240
+#@ rpwe_side
+#@ rpwe
+msgid "Read More &raquo;"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:254
+#: widgets/rpwe.php:280
+#@ rpwe_side
+#@ rpwe
+msgid "Title URL:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:258
+#: widgets/rpwe.php:284
+#@ rpwe_side
+#@ rpwe
+msgid "CSS ID:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:262
+#: widgets/rpwe.php:288
+#@ rpwe_side
+#@ rpwe
+msgid "Use Default Styles"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:266
+#: widgets/rpwe.php:292
+#@ rpwe_side
+#@ rpwe
+msgid "CSS:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:268
+#: widgets/rpwe.php:294
+#@ rpwe_side
+#@ rpwe
+msgid "If you turn off the default styles, please create your own style."
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:275
+#: widgets/rpwe.php:301
+#@ rpwe_side
+#@ rpwe
+msgid "Show Gutter"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:279
+#: widgets/rpwe.php:305
+#@ rpwe_side
+#@ rpwe
+msgid "Limit:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:283
+#: widgets/rpwe.php:309
+#@ rpwe_side
+#@ rpwe
+msgid "Offset (the number of posts to skip):"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:287
+#: widgets/rpwe.php:313
+#@ rpwe_side
+#@ rpwe
+msgid "Order:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:289
+#: widgets/rpwe.php:315
+#@ rpwe_side
+#@ rpwe
+msgid "DESC"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:290
+#: widgets/rpwe.php:316
+#@ rpwe_side
+#@ rpwe
+msgid "ASC"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:294
+#: widgets/rpwe.php:320
+#@ rpwe_side
+#@ rpwe
+msgid "Limit to Category: "
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:305
+#: widgets/rpwe.php:331
+#@ rpwe_side
+#@ rpwe
+msgid "Limit to Tag: "
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:317
+#: widgets/rpwe.php:343
+#@ rpwe_side
+#@ rpwe
+msgid "Choose the Post Type: "
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:333
+#: widgets/rpwe.php:359
+#@ rpwe_side
+#@ rpwe
+msgid "Display Thumbnail"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:337
+#: widgets/rpwe.php:363
+#@ rpwe_side
+#@ rpwe
+msgid "Thumbnail (height, width, align):"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:341
+#: widgets/rpwe.php:367
+#@ rpwe_side
+#@ rpwe
+msgid "Left"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:342
+#: widgets/rpwe.php:368
+#@ rpwe_side
+#@ rpwe
+msgid "Right"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:343
+#: widgets/rpwe.php:369
+#@ rpwe_side
+#@ rpwe
+msgid "Center"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:347
+#: widgets/rpwe.php:373
+#@ rpwe_side
+#@ rpwe
+msgid "Default Thumbnail:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:349
+#: widgets/rpwe.php:375
+#@ rpwe_side
+#@ rpwe
+msgid "Leave it blank to disable."
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:355
+#: widgets/rpwe.php:381
+#@ rpwe_side
+#@ rpwe
+msgid "Display Excerpt"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:359
+#: widgets/rpwe.php:385
+#@ rpwe_side
+#@ rpwe
+msgid "Excerpt Length:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:363
+#: widgets/rpwe.php:389
+#@ rpwe_side
+#@ rpwe
+msgid "Display Readmore"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:367
+#: widgets/rpwe.php:393
+#@ rpwe_side
+#@ rpwe
+msgid "Readmore Text:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:371
+#: widgets/rpwe.php:397
+#@ rpwe_side
+#@ rpwe
+msgid "Display Date"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:375
+#: widgets/rpwe.php:401
+#@ rpwe_side
+#@ rpwe
+msgid "Date Format:"
+msgstr ""
+
+#: widgets/rpwe-sidebar.php:377
+#: widgets/rpwe.php:403
+#@ rpwe_side
+#@ rpwe
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\">Date reference</a>"
+msgstr ""
+
+#: widgets/rpwe.php:21
+#@ rpwe
+msgid "Advanced recent posts widget."
+msgstr ""
+
+#: widgets/rpwe.php:30
+#@ rpwe
+msgid "&raquo; Recent Posts Widget Extended"
+msgstr ""
+

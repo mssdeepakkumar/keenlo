@@ -1,0 +1,13 @@
+*** WooCommerce - Watermark ***
+
+2013.04.30 - version 1.0.3
+ * Fix for Woo 2.0 new Gallery Format
+
+2012.12.13 - version 1.0.2
+ * Fix for WP 3.5
+
+2012.12.04 - version 1.0.1
+ * New updater
+
+2012.05.10 - version 1.0
+ * First Release

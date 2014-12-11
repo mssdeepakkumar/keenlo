@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/*
+* Title                   : DOP Select (jQuery Plugin)
+* Version                 : 1.0
+* File                    : jquery.dop.Select.css
+* File Version            : 1.0
+* Created / Last Modified : 13 July 2014
+* Copyright               : © 2014 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : DOP Select stylesheet.
+*/
+
+/*
+ * ***************************************************************************** Begin single select.
+ */
+.DOPSelect.single{
+    height: 30px;
+    margin: 0;
+    width: 170px;
+}
+
+.DOPSelect.single .select{
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    cursor: pointer;
+    overflow: hidden;
+    height: 28px;
+}
+
+.DOPSelect.single .select .selection{
+    color: #acacac;
+    float: left;
+    font-size: 13px;
+    font-weight: 300;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    width: 130px;
+    word-break: break-all;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+.DOPSelect.single .select .icon{
+    color: #c9c9c9;
+    float: right;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+    width: 28px;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+.DOPSelect.single .select:hover .icon{
+    color: #464646;
+}
+
+/*
+ * Options.
+ */
+.DOPSelect.single ul{
+    background: #ffffff;
+    border: 1px solid #464646;
+    display: none;
+    list-style: none;
+    margin: 2px 0 0 0 !important;
+    max-height: 218px;
+    padding: 8px 0;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 168px;
+    z-index: 10000;
+}
+
+.DOPSelect.single ul li{
+    background: #ffffff;
+    color: #acacac;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 300;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 9px;
+    width: 150px;
+    word-break: break-all;
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    -moz-transition: background-color 300ms linear, color 300ms linear;
+    -o-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+}
+
+.DOPSelect.single ul li:hover,
+.DOPSelect.single ul li.selected{
+    background: #464646;
+    color: #ffffff;
+}
+/*
+ * ***************************************************************************** End single select.
+ */
+
+/*
+ * ***************************************************************************** Begin multiple select.
+ */
+.DOPSelect.multiple{
+    margin: 0;
+    overflow: hidden;
+    width: 170px;
+}
+
+/*
+ * Options.
+ */
+.DOPSelect.multiple ul{
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    list-style: none;
+    margin: 0 !important;
+    max-height: 80px;
+    overflow-y: scroll;
+    padding: 9px;
+}
+
+.DOPSelect.multiple ul li{
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+/*
+ * Begin checkbox.
+ */
+.DOPSelect.multiple ul li input[type=checkbox]{
+    -webkit-appearance: none;
+    background: #ffffff;
+    border: 1px solid #acacac;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    float: left;
+    height: auto;
+    margin: 1px 5px 1px 0;
+    outline: none !important;
+    padding: 8px !important;
+    position: relative;
+    width: auto;
+}
+
+.DOPSelect.multiple ul li input[type=checkbox]{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.DOPSelect.multiple ul li input[type=checkbox]:hover{
+    border: 1px solid #464646;
+    color: #464646;
+}
+
+.DOPSelect.multiple ul li input[type=checkbox]:checked:before,
+.DOPSelect.multiple ul li input[type=checkbox]:checked:after{
+    background: #464646;
+    border: 1px solid #464646;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color: #464646;
+    content: ' ' !important;
+    font-size: 16px !important;
+    left: -1px !important;
+    height: 16px !important;
+    line-height: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: absolute !important;
+    top: -1px !important;
+    width: 16px !important;
+}
+
+.DOPSelect.multiple ul li input[type=checkbox]:disabled{
+    opacity: 0.5;
+}
+/*
+ * End checkbox.
+ */
+
+/*
+ * Begin label.
+ */
+.DOPSelect.multiple ul li label{
+    color: #acacac;
+    display: block;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    width: auto;
+    text-decoration: none !important;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+.DOPSelect.multiple ul li label:hover{
+    color: #464646;
+}
+/*
+ * End label.
+ */
+/*
+ * ***************************************************************************** End multiple select.
+ */
+
+/*
+ * ***************************************************************************** Begin disabled.
+ */
+.DOPSelect.disabled{
+    opacity: 0.5;
+}
+
+.DOPSelect.single.disabled .select{
+    cursor: default;
+}
+
+.DOPSelect.multiple.disabled ul{
+    overflow: hidden;
+}
+
+.DOPSelect.multiple.disabled ul li input[type=checkbox]:hover{
+    border: 1px solid #acacac;
+    color: #acacac;
+    cursor: default;
+}
+
+.DOPSelect.multiple.disabled ul li label{
+    cursor: default;
+}
+
+.DOPSelect.multiple.disabled ul li label:hover{
+    color: #acacac;
+}
+/*
+ * ***************************************************************************** End disabled.
+ */

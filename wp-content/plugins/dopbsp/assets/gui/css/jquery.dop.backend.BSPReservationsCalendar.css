@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/jquery.dop.backend.BSPReservationsCalendar.css
+* File Version            : 1.0
+* Created / Last Modified : 06 February 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end reservations calendar jQuery plugin stylesheet.
+*/
+
+/******************************************************************************* Container */
+
+.DOPBookingSystemPROReservations_Container{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 1em !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.DOPBookingSystemPROReservations_Clear{
+    clear: both;
+}
+
+/******************************************************************************* Navigation */
+
+.DOPBookingSystemPROReservations_Navigation{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 200;
+}
+
+.DOPBookingSystemPROReservations_Navigation .previous_btn{
+    background: url('../images/sprite.png') -250px 0;
+    cursor: pointer;
+    display: none;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 24px;
+    z-index: 100;
+}
+
+.DOPBookingSystemPROReservations_Navigation .previous_btn.hover{
+    background: url('../images/sprite.png') -275px 0;
+}
+
+.DOPBookingSystemPROReservations_Navigation .next_btn{
+    background: url('../images/sprite.png') -300px 0;
+    cursor: pointer;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    z-index: 200;
+}
+
+.DOPBookingSystemPROReservations_Navigation .next_btn.hover{
+    background: url('../images/sprite.png') -325px 0;
+}
+
+.DOPBookingSystemPROReservations_Navigation .add_btn{
+    background: url('../images/sprite.png') -350px 0;
+    cursor: pointer;
+    height: 24px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    z-index: 200;
+}
+
+.DOPBookingSystemPROReservations_Navigation .add_btn.hover{
+    background: url('../images/sprite.png') -375px 0;
+}
+
+.DOPBookingSystemPROReservations_Navigation .remove_btn{
+    background: url('../images/sprite.png') -400px 0;
+    cursor: pointer;
+    display: none;
+    height: 24px;
+    left: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    width: 24px;
+    z-index: 200;
+}
+
+.DOPBookingSystemPROReservations_Navigation .remove_btn.hover{
+    background: url('../images/sprite.png') -425px 0;
+}
+
+.DOPBookingSystemPROReservations_Navigation .month_year{
+    color: #606060;
+    font-family: Hevetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.DOPBookingSystemPROReservations_Navigation .week{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.DOPBookingSystemPROReservations_Navigation .week .day{
+    color: #606060;
+    font: 12px/1em Hevetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+/******************************************************************************* Calendar */
+
+.DOPBookingSystemPROReservations_Calendar{
+    margin: 0;
+    position: relative;
+    text-align: center;
+    z-index: 300;
+}
+
+.DOPBookingSystemPROReservations_Month{
+    border-bottom: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.DOPBookingSystemPROReservations_Month .month_year{
+    border-bottom: 1px solid #e0e0e0;
+    color: #6f6f6f;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 1em;
+    margin: 0 0 10px 0;
+    padding: 5px 0 10px 5px;
+    position: relative;
+    text-align: left;
+}
+
+/******************************************************************************* Day */
+
+.DOPBookingSystemPROReservations_Day{
+    border: 1px solid #f0f0f0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.DOPBookingSystemPROReservations_Day .header{
+    color: #212121;
+    font: bold 13px/30px Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 10px 0 5%;
+    text-align: left;
+}
+
+.DOPBookingSystemPROReservations_Day .content{
+    padding: 10px 0px !important;
+    width: auto !important;
+}
+
+.DOPBookingSystemPROReservations_Day .content .block{
+    height: 14px;
+    margin: 0 0 1px 0;
+}
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left{
+    background: #ffffff;
+    float: left;
+    height: 14px;
+    width: 5%;
+}
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-content{
+    background: #ffffff;
+    color: #ffffff;
+    float: left;
+    font: normal 11px/14px Arial, Helvetica, sans-serif;
+    height: 14px;
+    text-align: left;
+    text-indent: 5px;
+    width: 90%;
+}
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-right{
+    background: #ffffff;
+    float: left;
+    height: 14px;
+    width: 5%;
+}
+
+/* Pending Reservation */
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left.pending,
+.DOPBookingSystemPROReservations_Day .content .block .bind-content.pending,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.pending{
+    cursor: pointer;
+    background: #000000 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your PENDING color. */
+}
+
+/* Approved Reservation */
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left.approved,
+.DOPBookingSystemPROReservations_Day .content .block .bind-content.approved,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.approved{
+    cursor: pointer;
+    background: #9cbc72 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your APPROVED color. */
+}
+
+/* Rejected Reservation */
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left.rejected,
+.DOPBookingSystemPROReservations_Day .content .block .bind-content.rejected,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.rejected{
+    cursor: pointer;
+    background: #fdaa29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your REJECTED color. */
+}
+
+/* CANCELED Reservation */
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left.canceled,
+.DOPBookingSystemPROReservations_Day .content .block .bind-content.canceled,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.canceled{
+    cursor: pointer;
+    background: #cccccc !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your CANCELED color. */
+}
+
+/* EXPIRED Reservation */
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left.expired,
+.DOPBookingSystemPROReservations_Day .content .block .bind-content.expired,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.expired{
+    cursor: pointer;
+    background: #cccccc !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your EXPIRED color. */
+}
+
+/* DELETED Reservation */
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-left.expired,
+.DOPBookingSystemPROReservations_Day .content .block .bind-content.expired,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.expired{
+    cursor: default;
+    opacity: 0;
+}
+
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.pending,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.approved,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.rejected,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.canceled,
+.DOPBookingSystemPROReservations_Day .content .block .bind-right.expired{
+    float: right;
+    margin-right: -1px;
+    margin-top: -14px;
+    width: 6%;
+}
+
+.DOPBookingSystemPROReservations_Day:last-child .content .block .bind-right.pending,
+.DOPBookingSystemPROReservations_Day:last-child .content .block .bind-right.approved,
+.DOPBookingSystemPROReservations_Day:last-child .content .block .bind-right.rejected,
+.DOPBookingSystemPROReservations_Day:last-child .content .block .bind-right.canceled,
+.DOPBookingSystemPROReservations_Day:last-child .content .block .bind-right.expired{
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+    width: 5%;
+}
+
+/* Last Month Day */
+
+.DOPBookingSystemPROReservations_Day.last_month{
+    opacity: 0.5;
+}
+
+/* Past Day */
+
+.DOPBookingSystemPROReservations_Day.past_day{
+    opacity: 0.25;
+}
+
+/* Current Month Day */
+
+.DOPBookingSystemPROReservations_Day.curr_month{
+}
+
+/* Next Month Day */
+
+.DOPBookingSystemPROReservations_Day.next_month{
+    opacity: 0.5;
+}
+
+/* Mask Day */
+
+.DOPBookingSystemPROReservations_Day.mask{
+    border: none;
+    cursor: default;
+    opacity: 0;  
+}
+
+/* Hide Day */
+
+.DOPBookingSystemPROReservations_Day.hide{
+    display: none;
+}
+
+/******************************************************************************* Info */
+
+.DOPBookingSystemPROReservations_Info{
+    background: #fbfbfb;
+    border: 1px solid #c0c0c0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 4px #b0b0b0;
+    -moz-box-shadow: 0px 0px 4px #b0b0b0;
+    box-shadow: 0px 0px 4px #b0b0b0;
+    color: #606060;
+    display: none;
+    line-height: 1em;
+    left: 0px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    width: 330px;
+    z-index: 1000000;
+}
+
+.DOPBookingSystemPROReservations_Info .info-container{
+}
+
+.DOPBookingSystemPROReservations_Info .info-container label{
+    color: #000000;
+    float: left;
+    font: bold 12px/15px Helvetica, Arial, sans-serif;
+    width: 100px;
+}
+
+.DOPBookingSystemPROReservations_Info .info-container .value{
+    float: left;
+    font: normal 12px/15px Helvetica, Arial, sans-serif;
+}
+
+.DOPBookingSystemPROReservations_Info .instructions-container{
+    color: #c0c0c0;
+    font: normal 12px/15px Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 0;
+}
+
+.DOPBookingSystemPROReservations_Info.is-editable{
+    display: block !important;
+}
+
+.DOPBookingSystemPROReservations_Info.is-editable .instructions-container,
+.DOPBookingSystemPROReservations_Info .buttons-container{
+    display: none;
+}
+
+.DOPBookingSystemPROReservations_Info .instructions-container,
+.DOPBookingSystemPROReservations_Info.is-editable .buttons-container{
+    display: block;
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationApprove,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationReject,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationCancel,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationClose,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationDelete,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationJump{
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px/2em Arial, Helvetica, sans-serif;
+    margin: 10px 6px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 78px;
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container a:last-child{
+    margin: 10px 0 0 0;
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationApprove{
+    background: #9cbc72 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your APPROVED color. */
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationReject{
+    background: #fdaa29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your REJECTED color. */
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationCancel{
+    background: #cccccc !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your CANCELED color. */
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationDelete{
+    background: #fd4c29 !important; /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Change to your DELETE color. */
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationClose,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationJump{
+    background: #606060 !important;
+}
+
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationApprove:hover,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationReject:hover,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationCancel:hover,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationClose:hover,
+.DOPBookingSystemPROReservations_Info .buttons-container .DOPBookingSystemPROReservations_ReservationJump:hover{
+    background: #000000 !important;
+}

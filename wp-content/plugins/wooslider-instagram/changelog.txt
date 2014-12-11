@@ -1,0 +1,4 @@
+*** WooSlider Instagram Changelog ***
+
+2013.09.09 - version 1.0.0
+ * First release. Woo!

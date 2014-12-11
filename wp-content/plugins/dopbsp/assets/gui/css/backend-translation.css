@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+* Title                   : Booking System PRO (WordPress Plugin)
+* Version                 : 2.0
+* File                    : assets/gui/css/backend-translation.css
+* File Version            : 1.0
+* Created / Last Modified : 07 March 2014
+* Author                  : Dot on Paper
+* Copyright               : © 2012 Dot on Paper
+* Website                 : http://www.dotonpaper.net
+* Description             : Booking System PRO back end translation stylesheet.
+*/
+
+.DOPBSP-admin .main .translation-header{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+    padding: 9px;
+}
+
+.DOPBSP-admin .main .translation-header .input-wrapper{
+    margin: 5px 30px 5px 0;
+}
+
+.DOPBSP-admin .main .translation-content{
+    padding: 0;
+}
+
+/******************************************************************************* Begin translation table */
+
+
+.DOPBSP-admin .main .translation-content table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.DOPBSP-admin .main .translation-content table col.separator{
+    width: 10px;
+}
+
+.DOPBSP-admin .main .translation-content table.translation td{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    color: #acacac;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.DOPBSP-admin .main .translation-content table.translation td:first-child{
+    padding: 9px;
+}
+
+.DOPBSP-admin .main .translation-content table.translation tr:hover td{
+    background: #ddeefa;
+}
+
+.DOPBSP-admin .main .translation-content table.translation td.separator{
+    background: none !important;
+    border: none;
+    vertical-align: middle;
+}
+
+.DOPBSP-admin .main .translation-content table.translation td textarea{
+    background: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #464646;
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 9px;
+    resize: vertical;
+    width: 100%;
+}
+
+.DOPBSP-admin .main .translation-content table.translation td textarea:focus{
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.DOPBSP-admin .main .translation-content table.translation td .hint{
+    color: #ff6300;
+    font-size: 12px;
+}
+
+/******************************************************************************* End translation table */
+
+/******************************************************************************* Begin languages table */
+
+.DOPBSP-admin .main .translation-content table.languages td{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    color: #acacac;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0;
+    padding: 9px;
+    vertical-align: top;
+}
+
+.DOPBSP-admin .main .translation-content table.languages td:hover{
+    background: #ddeefa;
+}
+
+.DOPBSP-admin .main .translation-content table.languages td .input-wrapper{
+    margin: 0 0 1px 0;
+}
+
+.DOPBSP-admin .main .translation-content table.languages td .input-wrapper label.for-switch{
+    width: 230px;
+}
+
+.DOPBSP-admin .main .translation-content table.languages td.separator{
+    background: none !important;
+    border: none;
+    vertical-align: middle;
+}
+
+/******************************************************************************* End translation table */
+
+/******************************************************************************* Begin check */
+
+.DOPBSP-admin .main .translation-content.checked{
+    background: #ffffff;
+    border: 1px solid #c9c9c9;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 19px 9px;
+}
+
+.DOPBSP-admin .main .translation-content.checked .used{
+    color: #9cbc72;
+}
+
+.DOPBSP-admin .main .translation-content.checked .unused{
+    color: #f1705c;
+}
+
+/******************************************************************************* End check */

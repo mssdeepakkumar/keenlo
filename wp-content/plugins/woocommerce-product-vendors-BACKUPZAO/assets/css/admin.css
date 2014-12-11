@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'wc-product-vendors';
+  src:url('../fonts/vendors.eot');
+  src:url('../fonts/vendors.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vendors.woff') format('woff'),
+    url('../fonts/vendors.ttf') format('truetype'),
+    url('../fonts/vendors.svg#vendors') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#menu-posts-shop_commission .wp-menu-image:before {
+  font-family: 'wc-product-vendors' !important;
+  content: "\e600";
+}
